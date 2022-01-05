@@ -1,6 +1,13 @@
 ---
-title: "Hello World"
-date: 2022-01-06T00:46:27+08:00
-draft: true
+title: hello world
+description: hello world
+date: 2022-01-06
+slug: test-chinese
+image: helena-hertz-wWZzXlDpMog-unsplash.jpg
+categories:
+    - hello world
+    - 
 ---
-hello world
+ ## 正文
+
+ test
