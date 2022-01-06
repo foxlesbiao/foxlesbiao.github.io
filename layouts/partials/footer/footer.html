@@ -20,4 +20,14 @@
         {{ T "footer.builtWith" (dict "Generator" $Generator) | safeHTML }} <br />
         {{ T "footer.designedBy" (dict "Theme" $Theme "DesignedBy" $DesignedBy) | safeHTML }}
     </section>
+
+    <section class="copyright">
+        ...
+        {{ T "footer.builtWith" (dict "Generator" $Generator) | safeHTML }} <br />
+        {{ T "footer.designedBy" (dict "Theme" $Theme "DesignedBy" $DesignedBy) | safeHTML }}
+        <br/>
+        <span id="busuanzi_container_site_{{ 算法 }}">  
+            本文总阅读量<span id="busuanzi_value_site_{{ 算法 }}"></span>次
+        </span>
+    </section>
 </footer>
