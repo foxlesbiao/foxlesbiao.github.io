@@ -2,7 +2,7 @@
 title: OrangeFox
 description: sagit twrp
 date: 2020-09-09
-slug: test-chinese
+slug: OrangeFox-Recovery
 image: OrangeFox-Recovery.jpg
 categories:
     - sagit
@@ -18,4 +18,5 @@ categories:
 
 ## 引用
 
-> 
+> *[sagit - device](https://gitlab.com/OrangeFox/device/sagit)*
+> *[My modified sagit - device](https://github.com/foxlesbiao/SHRP-device-sagit)*
