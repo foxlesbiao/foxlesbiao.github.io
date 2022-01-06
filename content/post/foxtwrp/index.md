@@ -19,8 +19,10 @@ categories:
 ## 引用
 
 > *[sagit - device](https://gitlab.com/OrangeFox/device/sagit)*
-> *[My modified sagit - device](https://github.com/foxlesbiao/SHRP-device-sagit)*
+> *[My modify sagit - device](https://github.com/foxlesbiao/SHRP-device-sagit)*
 
 ## 图片
 
-![Photo by Florian Klauer on Unsplash](Screenshot_2022-01-06-07-52-01.png)  ![Photo by Luca Bravo on Unsplash](Screenshot_2022-01-06-07-52-04.png)
+![Photo by OrangeFox-Recovery](Screenshot_2022-01-06-07-52-01.png)  ![Photo by OrangeFox-Recovery](Screenshot_2022-01-06-07-52-04.png)
+![Photo by OrangeFox-Recovery](Screenshot_2022-01-06-07-52-06.png)  ![Photo by OrangeFox-Recovery](Screenshot_2022-01-06-07-52-07.png)
+![Photo by OrangeFox-Recovery](Screenshot_2022-01-06-07-52-16.png)
