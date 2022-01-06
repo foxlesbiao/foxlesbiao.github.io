@@ -1,8 +1,8 @@
 ---
 title: OrangeFox
 description: sagit twrp
-date: 2020-09-09
-slug: OrangeFox-Recovery
+date: 2022-01-06
+slug: OrangeFox
 image: OrangeFox-Recovery.jpg
 categories:
     - sagit
