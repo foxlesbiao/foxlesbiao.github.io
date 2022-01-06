@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lesfoxbiao</title><link>https://foxlesbiao.github.io/</link><description>Recent content on lesfoxbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 06 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>OrangeFox</title><link>https://foxlesbiao.github.io/p/orangefox/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/orangefox/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/orangefox/OrangeFox-Recovery.jpg" alt="Featured image of post OrangeFox" />&lt;h2 id="正文">正文&lt;/h2>
-&lt;blockquote>
-&lt;p>这是一个适用于小米6 TWRP
-支持 android 12 Data 解密
-Adnroid 12 FBE 无法工作&lt;/p>
-&lt;/blockquote>
+&lt;p>这是一个适用于小米6 TWRP&lt;/p>
+&lt;p>This is a TWRP for Mi 6&lt;/p>
+&lt;p>支持 android 12 Data 解密&lt;/p>
+&lt;p>Support android 12 Data decryption&lt;/p>
+&lt;p>Android 12 FBE 无法工作&lt;/p>
+&lt;p>Android 12 FBE does not work&lt;/p>
 &lt;h2 id="引用">引用&lt;/h2>
 &lt;blockquote>
 &lt;p>&lt;em>&lt;a class="link" href="https://gitlab.com/OrangeFox/device/sagit" target="_blank" rel="noopener"
->sagit - device&lt;/a>&lt;/em>
-&lt;em>&lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit" target="_blank" rel="noopener"
+>sagit - device&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit" target="_blank" rel="noopener"
 >My modify sagit - device&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit/releases/tag/R11.1-orangefox" target="_blank" rel="noopener"
+>download link&lt;/a>&lt;/em>&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="图片">图片&lt;/h2>
 &lt;p>&lt;figure
