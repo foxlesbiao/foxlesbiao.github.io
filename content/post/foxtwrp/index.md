@@ -12,14 +12,27 @@ categories:
 
 ## 正文
 
-> 这是一个适用于小米6 TWRP 
-> 支持 android 12 Data 解密
-> Adnroid 12 FBE 无法工作
+这是一个适用于小米6 TWRP 
+
+This is a TWRP for Mi 6 
+
+支持 android 12 Data 解密 
+
+Support android 12 Data decryption 
+
+Android 12 FBE 无法工作 
+
+Android 12 FBE does not work 
+
+
 
 ## 引用
 
-> *[sagit - device](https://gitlab.com/OrangeFox/device/sagit)*
-> *[My modify sagit - device](https://github.com/foxlesbiao/SHRP-device-sagit)*
+> *[sagit - device](https://gitlab.com/OrangeFox/device/sagit)* 
+
+> *[My modify sagit - device](https://github.com/foxlesbiao/SHRP-device-sagit)* 
+
+> *[download link](https://github.com/foxlesbiao/SHRP-device-sagit/releases/tag/R11.1-orangefox)*
 
 ## 图片
 
