@@ -3,7 +3,7 @@ title: OrangeFox
 description: sagit twrp
 date: 2020-09-09
 slug: test-chinese
-image: helena-hertz-wWZzXlDpMog-unsplash.jpg
+image: OrangeFox-Recovery.jpg
 categories:
     - sagit
     - twrp
@@ -21,5 +21,3 @@ categories:
 > 
 
 ## 图片
-
-![Photo by Florian Klauer on Unsplash](florian-klauer-nptLmg6jqDo-unsplash.jpg)  ![Photo by Luca Bravo on Unsplash](luca-bravo-alS7ewQ41M8-unsplash.jpg) 
