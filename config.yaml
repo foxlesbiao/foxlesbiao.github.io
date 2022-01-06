@@ -39,7 +39,7 @@ params:
 
     sidebar:
         emoji: 🦊
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: A nine-tailed fox.
         avatar:
             enabled: true
             local: true
