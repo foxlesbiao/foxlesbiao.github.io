@@ -132,7 +132,7 @@ device.mk 文件，这个文件只用于 V-AB 分区和动态分区，还有 A/B
 请在有 V-AB 分区的手机，device tree 仓库搜索复制到你的文件  
 只需要更改这一代码段就可以了
 LOCAL_PATH := device/xxxx/xxxx > LOCAL_PATH := device/品牌英文名称/机型代号  
-动态分区和 A/B 分区，我不知道怎么改。  
+动态分区和 A/B 分区，我不知道怎么改，[有参考的可以在这里提交给我，我来更改](https://github.com/foxlesbiao/foxlesbiao.github.io/issues)。  
 omni_机型代号.mk 文件或者是 twrp_机型代号.mk
 ![omni_机型代号.mk](2022-01-12_02-51.png) 
 PRODUCT_RELEASE_NAME := 机型代号  
