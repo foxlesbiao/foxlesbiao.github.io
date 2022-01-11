@@ -19,7 +19,8 @@ SHRP 按照分支拉取，更改后面的 v3_11.0 就可以. &lt;em>&lt;a class=
 TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc &amp;ndash;all) &amp;ndash;force-sync &amp;ndash;no-clone-bundle &amp;ndash;no-tags&lt;/p>
 &lt;h3 id="2-copy-device-tree-repository">2: copy device tree repository&lt;/h3>
 &lt;p>1: cd source-dir&lt;br>
-2: git clone &lt;a class="link" href="mailto:git@github.com" >git@github.com&lt;/a>:foxlesbiao/SHRP-device-sagit.git device/sagit&lt;/p>
+2: git clone &lt;a class="link" href="mailto:git@github.com" >git@github.com&lt;/a>:foxlesbiao/SHRP-device-sagit.git device/sagit&lt;br>
+注意这个是我的设备，这个仓库不适用你的手机&lt;/p>
 &lt;h4 id="21-builder-twrpofrpshrp">2.1: builder TWRP/OFRP/SHRP&lt;/h4>
 &lt;p>1: cd source-dir&lt;br>
 2: . build/envsetup.sh or source build/envsetup.sh&lt;br>
