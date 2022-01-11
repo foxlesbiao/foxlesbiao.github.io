@@ -1,15 +1,14 @@
 <!doctype html><html lang=en-us>
 <head><meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="sagit twrp"><title>OrangeFox</title>
-<link rel=canonical href=https://foxlesbiao.github.io/p/orangefox/>
-<link rel=stylesheet href=/scss/style.min.775dbd4fd34fda61c5273b4bc3415f7c9666414fb6c40aab164a7ded4397da98.css><meta property="og:title" content="OrangeFox">
-<meta property="og:description" content="sagit twrp">
-<meta property="og:url" content="https://foxlesbiao.github.io/p/orangefox/">
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="How to build TWRP/OFRP/SHRP"><title>How to compile TWRP</title>
+<link rel=canonical href=https://foxlesbiao.github.io/p/builder-twrp/>
+<link rel=stylesheet href=/scss/style.min.775dbd4fd34fda61c5273b4bc3415f7c9666414fb6c40aab164a7ded4397da98.css><meta property="og:title" content="How to compile TWRP">
+<meta property="og:description" content="How to build TWRP/OFRP/SHRP">
+<meta property="og:url" content="https://foxlesbiao.github.io/p/builder-twrp/">
 <meta property="og:site_name" content="lesfoxbiao">
-<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:published_time" content="2022-01-06T00:00:00+00:00"><meta property="article:modified_time" content="2022-01-06T00:00:00+00:00"><meta property="og:image" content="https://foxlesbiao.github.io/p/orangefox/OrangeFox-Recovery.jpg">
-<meta name=twitter:title content="OrangeFox">
-<meta name=twitter:description content="sagit twrp"><meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://foxlesbiao.github.io/p/orangefox/OrangeFox-Recovery.jpg"><script src=https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/ribbon.min.js integrity=sha384-UEK8ZiP3VgFNP8KnKMKDmd4pAUAOJ59Y2Jo3ED2Z5qKQf6HLHovMxq7Beb9CLPUe crossorigin=anonymous size=300 alpha=0.6 zindex=-1 defer></script>
+<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:published_time" content="2022-01-11T00:00:00+00:00"><meta property="article:modified_time" content="2022-01-11T00:00:00+00:00">
+<meta name=twitter:title content="How to compile TWRP">
+<meta name=twitter:description content="How to build TWRP/OFRP/SHRP"><script src=https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/ribbon.min.js integrity=sha384-UEK8ZiP3VgFNP8KnKMKDmd4pAUAOJ59Y2Jo3ED2Z5qKQf6HLHovMxq7Beb9CLPUe crossorigin=anonymous size=300 alpha=0.6 zindex=-1 defer></script>
 </head>
 <body class="article-page has-toc">
 <script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
@@ -21,17 +20,12 @@ extended">
 </a>
 </div>
 <main class="main full-width">
-<article class="has-image main-article">
+<article class=main-article>
 <header class=article-header>
-<div class=article-image>
-<a href=/p/orangefox/>
-<img src=/p/orangefox/OrangeFox-Recovery_hu47643921cd1e47e208de57361cf2d2a6_254754_800x0_resize_q75_box.jpg srcset="/p/orangefox/OrangeFox-Recovery_hu47643921cd1e47e208de57361cf2d2a6_254754_800x0_resize_q75_box.jpg 800w, /p/orangefox/OrangeFox-Recovery_hu47643921cd1e47e208de57361cf2d2a6_254754_1600x0_resize_q75_box.jpg 1600w" width=800 height=125 loading=lazy alt="Featured image of post OrangeFox">
-</a>
-</div>
 <div class=article-details>
 <header class=article-category>
-<a href=/categories/sagit/>
-sagit
+<a href=/categories/build/>
+Build
 </a>
 <a href=/categories/twrp/>
 TWRP
@@ -39,16 +33,19 @@ TWRP
 <a href=/categories/orangefox/>
 OrangeFox
 </a>
+<a href=/categories/shrp/>
+SHRP
+</a>
 </header>
 <h2 class=article-title>
-<a href=/p/orangefox/>OrangeFox</a>
+<a href=/p/builder-twrp/>How to compile TWRP</a>
 </h2>
 <h3 class=article-subtitle>
-sagit twrp
+How to build TWRP/OFRP/SHRP
 </h3>
 <footer class=article-time>
 <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
-<time class=article-time--published>Jan 06, 2022</time>
+<time class=article-time--published>Jan 11, 2022</time>
 </div>
 <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
 <time class=article-time--reading>
@@ -59,52 +56,37 @@ sagit twrp
 </div>
 </header>
 <section class=article-content>
-<h2 id=正文>正文</h2>
-<p>这是一个适用于小米6 TWRP</p>
-<p>This is a TWRP for Mi 6</p>
-<p>支持 android 12 Data 解密</p>
-<p>Support android 12 Data decryption</p>
-<p>Android 12 FBE 无法工作</p>
-<p>Android 12 FBE does not work</p>
-<h2 id=引用>引用</h2>
-<blockquote>
-<p><em><a class=link href=https://gitlab.com/OrangeFox/device/sagit target=_blank rel=noopener>sagit - device</a></em></p>
-</blockquote>
-<blockquote>
-<p><em><a class=link href=https://github.com/foxlesbiao/SHRP-device-sagit target=_blank rel=noopener>My modify sagit - device</a></em></p>
-</blockquote>
-<blockquote>
-<p><em><a class=link href=https://github.com/foxlesbiao/SHRP-device-sagit/releases/tag/R11.1-orangefox target=_blank rel=noopener>download link</a></em></p>
-</blockquote>
-<h2 id=图片>图片</h2>
-<p><figure class=gallery-image style=flex-grow:56;flex-basis:135px>
-<a href=/p/orangefox/Screenshot_2022-01-06-07-52-01.png data-size=1080x1920>
-<img src=/p/orangefox/Screenshot_2022-01-06-07-52-01.png width=1080 height=1920 srcset="/p/orangefox/Screenshot_2022-01-06-07-52-01_hu0e843e7eb87b46d2fcf595a2f0df5201_82264_480x0_resize_box_3.png 480w, /p/orangefox/Screenshot_2022-01-06-07-52-01_hu0e843e7eb87b46d2fcf595a2f0df5201_82264_1024x0_resize_box_3.png 1024w" loading=lazy alt="Photo by OrangeFox-Recovery">
+<h2 id=existing-device-tree-compiled>Existing device tree compiled</h2>
+<p>这里适合已经有 device tree github 仓库的</p>
+<h3 id=1create-foldercopy-twrpofrpshrp-repository>1:create folder,Copy TWRP/OFRP/SHRP repository</h3>
+<p>mkdir TWRP/OFRP/SHRP && cd TWRP/OFRP/SHRP<br>
+TeamWin Recovery Project: <a class=link href=https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git target=_blank rel=noopener>https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git</a><br>
+OrangeFox Recovery Project: <a class=link href=https://gitlab.com/OrangeFox/Manifest.git target=_blank rel=noopener>https://gitlab.com/OrangeFox/Manifest.git</a><br>
+SKYHAWK Recovery Project: <a class=link href=https://github.com/SHRP/platform_manifest_twrp_omni.git target=_blank rel=noopener>https://github.com/SHRP/platform_manifest_twrp_omni.git</a></p>
+<h4 id=11-sync>1.1: sync</h4>
+<p>TWRP：repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0<br>
+OFRP：repo init -u <a class=link href=https://gitlab.com/OrangeFox/Manifest.git target=_blank rel=noopener>https://gitlab.com/OrangeFox/Manifest.git</a> -b fox_9.0<br>
+SHRP：repo init -u git://github.com/SHRP/manifest.git -b v3_11.0/v3_10.0/v3_9.0<br>
+SHRP 按照分支拉取，更改后面的 v3_11.0 就可以. <em><a class=link href=https://shrp.github.io/#/guide target=_blank rel=noopener>官方参考</a></em><br>
+TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc &ndash;all) &ndash;force-sync &ndash;no-clone-bundle &ndash;no-tags</p>
+<h3 id=2-copy-device-tree-repository>2: copy device tree repository</h3>
+<p>1: cd source-dir<br>
+2: git clone <a class=link href=mailto:git@github.com>git@github.com</a>:foxlesbiao/SHRP-device-sagit.git device/sagit</p>
+<h4 id=21-builder-twrpofrpshrp>2.1: builder TWRP/OFRP/SHRP</h4>
+<p>1: cd source-dir<br>
+2: . build/envsetup.sh or source build/envsetup.sh<br>
+3: make clean && lunch omni_-userdebug && mka recoveryimage</p>
+<h4 id=22-shrp-dtguide>2.2: SHRP dtGuide</h4>
+<p>SHRP 需要编写 BoardConfig.mk<br>
+可以参考我的 <em><a class=link href=https://github.com/foxlesbiao/SHRP-device-sagit/blob/fox_9.0/BoardConfig.mk target=_blank rel=noopener>文件</a></em> #SHRP 的部分<br>
+<figure class=gallery-image style=flex-grow:154;flex-basis:371px>
+<a href=/p/builder-twrp/2022-01-11_23-51.png data-size=519x335>
+<img src=/p/builder-twrp/2022-01-11_23-51.png width=519 height=335 srcset="/p/builder-twrp/2022-01-11_23-51_huc3cf97261875708a0404676e5e5ee764_35636_480x0_resize_box_3.png 480w, /p/builder-twrp/2022-01-11_23-51_huc3cf97261875708a0404676e5e5ee764_35636_1024x0_resize_box_3.png 1024w" loading=lazy alt="SHRP dtGuide">
 </a>
-<figcaption>Photo by OrangeFox-Recovery</figcaption>
-</figure> <figure class=gallery-image style=flex-grow:56;flex-basis:135px>
-<a href=/p/orangefox/Screenshot_2022-01-06-07-52-04.png data-size=1080x1920>
-<img src=/p/orangefox/Screenshot_2022-01-06-07-52-04.png width=1080 height=1920 srcset="/p/orangefox/Screenshot_2022-01-06-07-52-04_hu4f09383ccb16d2908d1f05c693c2222f_84532_480x0_resize_box_3.png 480w, /p/orangefox/Screenshot_2022-01-06-07-52-04_hu4f09383ccb16d2908d1f05c693c2222f_84532_1024x0_resize_box_3.png 1024w" loading=lazy alt="Photo by OrangeFox-Recovery">
-</a>
-<figcaption>Photo by OrangeFox-Recovery</figcaption>
-</figure>
-<figure class=gallery-image style=flex-grow:56;flex-basis:135px>
-<a href=/p/orangefox/Screenshot_2022-01-06-07-52-06.png data-size=1080x1920>
-<img src=/p/orangefox/Screenshot_2022-01-06-07-52-06.png width=1080 height=1920 srcset="/p/orangefox/Screenshot_2022-01-06-07-52-06_hu3cfafc8be8219f27c8e2099be6bcac13_85225_480x0_resize_box_3.png 480w, /p/orangefox/Screenshot_2022-01-06-07-52-06_hu3cfafc8be8219f27c8e2099be6bcac13_85225_1024x0_resize_box_3.png 1024w" loading=lazy alt="Photo by OrangeFox-Recovery">
-</a>
-<figcaption>Photo by OrangeFox-Recovery</figcaption>
-</figure> <figure class=gallery-image style=flex-grow:56;flex-basis:135px>
-<a href=/p/orangefox/Screenshot_2022-01-06-07-52-07.png data-size=1080x1920>
-<img src=/p/orangefox/Screenshot_2022-01-06-07-52-07.png width=1080 height=1920 srcset="/p/orangefox/Screenshot_2022-01-06-07-52-07_hu97ab80ed61fcb27ccd605daf59e099dc_82626_480x0_resize_box_3.png 480w, /p/orangefox/Screenshot_2022-01-06-07-52-07_hu97ab80ed61fcb27ccd605daf59e099dc_82626_1024x0_resize_box_3.png 1024w" loading=lazy alt="Photo by OrangeFox-Recovery">
-</a>
-<figcaption>Photo by OrangeFox-Recovery</figcaption>
-</figure>
-<figure class=gallery-image style=flex-grow:56;flex-basis:135px>
-<a href=/p/orangefox/Screenshot_2022-01-06-07-52-16.png data-size=1080x1920>
-<img src=/p/orangefox/Screenshot_2022-01-06-07-52-16.png width=1080 height=1920 srcset="/p/orangefox/Screenshot_2022-01-06-07-52-16_huf5c218939c3cb74373c7c878e18ef192_267320_480x0_resize_box_3.png 480w, /p/orangefox/Screenshot_2022-01-06-07-52-16_huf5c218939c3cb74373c7c878e18ef192_267320_1024x0_resize_box_3.png 1024w" loading=lazy alt="Photo by OrangeFox-Recovery">
-</a>
-<figcaption>Photo by OrangeFox-Recovery</figcaption>
+<figcaption>SHRP dtGuide</figcaption>
 </figure></p>
+<h4 id=23-ofrp-vendorsetup>2.3: OFRP vendorsetup</h4>
+<p>我忘记了</p>
 </section>
 <footer class=article-footer>
 <section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
@@ -179,9 +161,22 @@ Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=
 <div class=widget--toc>
 <nav id=TableOfContents>
 <ol>
-<li><a href=#正文>正文</a></li>
-<li><a href=#引用>引用</a></li>
-<li><a href=#图片>图片</a></li>
+<li><a href=#existing-device-tree-compiled>Existing device tree compiled</a>
+<ol>
+<li><a href=#1create-foldercopy-twrpofrpshrp-repository>1:create folder,Copy TWRP/OFRP/SHRP repository</a>
+<ol>
+<li><a href=#11-sync>1.1: sync</a></li>
+</ol>
+</li>
+<li><a href=#2-copy-device-tree-repository>2: copy device tree repository</a>
+<ol>
+<li><a href=#21-builder-twrpofrpshrp>2.1: builder TWRP/OFRP/SHRP</a></li>
+<li><a href=#22-shrp-dtguide>2.2: SHRP dtGuide</a></li>
+<li><a href=#23-ofrp-vendorsetup>2.3: OFRP vendorsetup</a></li>
+</ol>
+</li>
+</ol>
+</li>
 </ol>
 </nav>
 </div>
