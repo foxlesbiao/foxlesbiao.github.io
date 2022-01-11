@@ -49,36 +49,40 @@ How to build TWRP/OFRP/SHRP
 </div>
 <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
 <time class=article-time--reading>
-閱讀時間: 1 分鐘
+閱讀時間: 3 分鐘
 </time>
 </div>
 </footer>
 </div>
 </header>
 <section class=article-content>
-<h2 id=existing-device-tree-compiled>Existing device tree compiled</h2>
+<h1 id=existing-device-tree-compiled>Existing device tree compiled</h1>
 <p>这里适合已经有 device tree github 仓库的<br>
 This is suitable for existing device tree github warehouses</p>
-<h3 id=1create-foldercopy-twrpofrpshrp-repository>1:create folder,Copy TWRP/OFRP/SHRP repository</h3>
+<h2 id=1create-foldercopy-twrpofrpshrp-repository>1:create folder,Copy TWRP/OFRP/SHRP repository</h2>
 <p>mkdir TWRP/OFRP/SHRP && cd TWRP/OFRP/SHRP<br>
 TeamWin Recovery Project: <a class=link href=https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git target=_blank rel=noopener>https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git</a><br>
 OrangeFox Recovery Project: <a class=link href=https://gitlab.com/OrangeFox/Manifest.git target=_blank rel=noopener>https://gitlab.com/OrangeFox/Manifest.git</a><br>
 SKYHAWK Recovery Project: <a class=link href=https://github.com/SHRP/platform_manifest_twrp_omni.git target=_blank rel=noopener>https://github.com/SHRP/platform_manifest_twrp_omni.git</a></p>
-<h4 id=11-sync>1.1: sync</h4>
+<h3 id=11-sync>1.1: sync</h3>
 <p>TWRP：repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0<br>
 OFRP：repo init -u <a class=link href=https://gitlab.com/OrangeFox/Manifest.git target=_blank rel=noopener>https://gitlab.com/OrangeFox/Manifest.git</a> -b fox_9.0<br>
 SHRP：repo init -u git://github.com/SHRP/manifest.git -b v3_11.0/v3_10.0/v3_9.0<br>
 SHRP 按照分支拉取，更改后面的 v3_11.0 就可以. <em><a class=link href=https://shrp.github.io/#/guide target=_blank rel=noopener>官方参考</a></em><br>
 TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc &ndash;all) &ndash;force-sync &ndash;no-clone-bundle &ndash;no-tags</p>
-<h3 id=2-copy-device-tree-repository>2: copy device tree repository</h3>
-<p>1: cd source-dir<br>
-2: git clone <a class=link href=mailto:git@github.com>git@github.com</a>:foxlesbiao/SHRP-device-sagit.git device/sagit<br>
-注意这个是我的设备，这个仓库不适用你的手机</p>
-<h4 id=21-builder-twrpofrpshrp>2.1: builder TWRP/OFRP/SHRP</h4>
-<p>1: cd source-dir<br>
-2: . build/envsetup.sh or source build/envsetup.sh<br>
-3: make clean && lunch omni_-userdebug && mka recoveryimage</p>
-<h4 id=22-shrp-dtguide>2.2: SHRP dtGuide</h4>
+<h2 id=2-copy-device-tree-repository>2: copy device tree repository</h2>
+<ul>
+<li>cd source-dir</li>
+<li>git clone <a class=link href=mailto:git@github.com>git@github.com</a>:foxlesbiao/SHRP-device-sagit.git device/sagit<br>
+注意这个是我的设备，这个仓库不适用你的手机</li>
+</ul>
+<h3 id=21-builder-twrpofrpshrp>2.1: builder TWRP/OFRP/SHRP</h3>
+<ul>
+<li>cd source-dir</li>
+<li>. build/envsetup.sh or source build/envsetup.sh</li>
+<li>make clean && lunch omni_-userdebug && mka recoveryimage</li>
+</ul>
+<h3 id=22-shrp-dtguide>2.2: SHRP dtGuide</h3>
 <p>SHRP 需要编写 BoardConfig.mk 才可以正常编译 SHRP<br>
 <em><a class=link href=https://shrp.github.io/#/dtGuide target=_blank rel=noopener>官方参考</a></em> 也可以参考我的 <em><a class=link href=https://github.com/foxlesbiao/SHRP-device-sagit/blob/fox_9.0/BoardConfig.mk target=_blank rel=noopener>文件</a></em> #SHRP 的部分<br>
 <figure class=gallery-image style=flex-grow:154;flex-basis:371px>
@@ -87,7 +91,7 @@ TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc &ndash;all) &ndash;force-sy
 </a>
 <figcaption>SHRP dtGuide</figcaption>
 </figure></p>
-<h4 id=23-ofrp-vendorsetup>2.3: OFRP vendorsetup</h4>
+<h3 id=23-ofrp-vendorsetup>2.3: OFRP vendorsetup</h3>
 <p>和 SHRP 一样，OFRP 也有 var 特性<br>
 在同步 OFRP 仓库之后， vendor/recovery/orangefox_build_vars.txt 就是 OFRP 全部 var 特性<br>
 这个文件需要放在 vendor/omni/ 或者 device/ 文件夹里面<br>
@@ -100,6 +104,164 @@ device 文件夹是单独建立防止多设备编译搞混<br>
 </a>
 <figcaption>OFRP vendorsetup</figcaption>
 </figure></p>
+<h1 id=write-the-device-tree-file>Write the device tree file</h1>
+<p>这里适合 github 没有 device tree 仓库的<br>
+This is suitable for github without device tree repository</p>
+<h2 id=1know-your-phone-partition>1:Know your phone partition</h2>
+<ul>
+<li>独立 recovery 分区 A only 分区</li>
+<li>集成recovery 分区集成在 boot 分区 A/B 分区 V-AB 分区</li>
+<li>查看是否动态分区</li>
+</ul>
+<h3 id=11download-the-official-rom-and-extract-the-img-file>1.1:Download the official rom and extract the img file</h3>
+<ul>
+<li>独立 recovery 分区，提取 recovery.img</li>
+<li>集成 recovery 分区，提取 boot.img</li>
+<li>解包 recovery.img 和 boot.img 文件</li>
+</ul>
+<h3 id=12device-tree-file-structure>1.2:Device tree file structure</h3>
+<p><em><a class=link href=https://github.com/foxlesbiao/SHRP-device-sagit target=_blank rel=noopener>可以查看我仓库里的device tree文件结构</a></em></p>
+<ul>
+<li>
+<p>prebuilt 文件夹是我们提取出来的预编译内核<br>
+image.gz 是内核本体 大概原名字是 xxxx-kernel<br>
+dtb.img 有一些手机会有这个文件 大概原名字是 xxxx-dtb<br>
+dtbo.img 如果有的话，也需要这个文件 大概原名字是 xxxx-dtbo</p>
+</li>
+<li>
+<p>root 文件夹<br>
+提取在 RamDisk 目录下的全部 .rc 文件</p>
+</li>
+<li>
+<p>mk 文件夹是手机型号各种参数<br>
+Android.mk 说明你的机型代号<br>
+AndroidProduct.mk 告知 TWRP/OFRP/SHRP 源代码说明你机型代号的名字<br>
+BoardConfig.mk 配置文件<br>
+device.mk 这个是写 A/B 分区配置文件<br>
+recovery.fstab 声明每个分区挂载位置，提取自 RamDisk 文件</p>
+<h3 id=13write-the-device-tree-file>1.3:Write the device tree file</h3>
+<p>注意: root/recovery 文件目录也可以是这样 recovery/root<br>
+<figure class=gallery-image style=flex-grow:121;flex-basis:290px>
+<a href=/p/builder-twrp/2022-01-12_01-14.png data-size=746x616>
+<img src=/p/builder-twrp/2022-01-12_01-14.png width=746 height=616 srcset="/p/builder-twrp/2022-01-12_01-14_huc88a1d38d7e42ae49b698c3f3ee0e7e1_36580_480x0_resize_box_3.png 480w, /p/builder-twrp/2022-01-12_01-14_huc88a1d38d7e42ae49b698c3f3ee0e7e1_36580_1024x0_resize_box_3.png 1024w" loading=lazy alt="device tree file directory">
+</a>
+<figcaption>device tree file directory</figcaption>
+</figure>
+文件命名可以参考我的<a class=link href=https://github.com/foxlesbiao/SHRP-device-sagit target=_blank rel=noopener>命名</a></p>
+</li>
+<li>
+<p>提取文件到 device tree</p>
+<ul>
+<li>ramdisk/etc/recovery.fstab ,把这个文件放在 device tree 根目录<br>
+如果没有这个文件可以在 system/etc or vendor/etc 里面的 fstab 文件，重命名为 recovery.fstab 放在 device tree 根目录</li>
+<li>把 ramdisk 文件夹下的 .rc 文件提取到 root/recovery or recovery/root</li>
+<li>把 split-img 文件夹下的 xxxx-dtbo and xxxx-dtb and xxxx-kernel<br>
+分别重命名为 dtbo.img and dtb.img and image.gz<br>
+放在 device tree 根目录的 prebuilt 目录下</li>
+</ul>
+</li>
+<li>
+<p>编写 mk 文件 这个是按照我的文件编写的<a class=link href=https://github.com/foxlesbiao/SHRP-device-sagit target=_blank rel=noopener>查看</a></p>
+<ul>
+<li>Android.mk 将红线部分改为你的机型代号<br>
+<figure class=gallery-image style=flex-grow:107;flex-basis:257px>
+<a href=/p/builder-twrp/2022-01-12_01-38.png data-size=677x630>
+<img src=/p/builder-twrp/2022-01-12_01-38.png width=677 height=630 srcset="/p/builder-twrp/2022-01-12_01-38_hu8bea6a9083f93ecf23d5368867cace8d_97238_480x0_resize_box_3.png 480w, /p/builder-twrp/2022-01-12_01-38_hu8bea6a9083f93ecf23d5368867cace8d_97238_1024x0_resize_box_3.png 1024w" loading=lazy alt=Android.mk>
+</a>
+<figcaption>Android.mk</figcaption>
+</figure></li>
+<li>AndroidProducts.mk 将红线部分改为你自己所命名的文件<br>
+<figure class=gallery-image style=flex-grow:161;flex-basis:387px>
+<a href=/p/builder-twrp/2022-01-12_01-41.png data-size=611x378>
+<img src=/p/builder-twrp/2022-01-12_01-41.png width=611 height=378 srcset="/p/builder-twrp/2022-01-12_01-41_hu4963573f961dcdf366106e078017e73b_55420_480x0_resize_box_3.png 480w, /p/builder-twrp/2022-01-12_01-41_hu4963573f961dcdf366106e078017e73b_55420_1024x0_resize_box_3.png 1024w" loading=lazy alt=AndroidProducts.mk>
+</a>
+<figcaption>AndroidProducts.mk</figcaption>
+</figure></li>
+<li>BoardConfig.mk
+LOCAL_PATH := device/xiaomi/sagit > LOCAL_PATH := device/品牌英文名称/机型代号<br>
+<figure class=gallery-image style=flex-grow:129;flex-basis:310px>
+<a href=/p/builder-twrp/2022-01-12_01-53.png data-size=357x276>
+<img src=/p/builder-twrp/2022-01-12_01-53.png width=357 height=276 srcset="/p/builder-twrp/2022-01-12_01-53_hub6e32002f30de961106facd83b1d3f11_22609_480x0_resize_box_3.png 480w, /p/builder-twrp/2022-01-12_01-53_hub6e32002f30de961106facd83b1d3f11_22609_1024x0_resize_box_3.png 1024w" loading=lazy alt=BoardConfig.mk>
+</a>
+<figcaption>BoardConfig.mk</figcaption>
+</figure>
+这个做了通用化处理<br>
+TARGET_OTA_ASSERT_DEVICE := sagit > TARGET_OTA_ASSERT_DEVICE := 机型代号<br>
+在 split-img 文件夹下找到 xxxx-cmdline 文件，打开并复制里面的话<br>
+BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0 earlycon=msm_serial_dm,0xc1b0000 > BOARD_KERNEL_CMDLINE := 你复制的<br>
+声明预编译内核位置 dtb 和 dtbo
+<ul>
+<li>TARGET_PREBUILT_DTB := $(LOCAL_PATH)/prebuilt/dtb.img</li>
+<li>TARGET_PREBUILT_DTBOIMAGE := $(LOCAL_PATH)/prebuilt/dtbo.img</li>
+<li>BOARD_INCLUDE_RECOVERY_DTBO := true<br>
+<figure class=gallery-image style=flex-grow:190;flex-basis:458px>
+<a href=/p/builder-twrp/2022-01-12_02-00.png data-size=842x441>
+<img src=/p/builder-twrp/2022-01-12_02-00.png width=842 height=441 srcset="/p/builder-twrp/2022-01-12_02-00_hu1c04c01a8210207e2ca6cef0c96de901_92376_480x0_resize_box_3.png 480w, /p/builder-twrp/2022-01-12_02-00_hu1c04c01a8210207e2ca6cef0c96de901_92376_1024x0_resize_box_3.png 1024w" loading=lazy alt=BoardConfig.mk>
+</a>
+<figcaption>BoardConfig.mk</figcaption>
+</figure><br>
+<figure class=gallery-image style=flex-grow:852;flex-basis:2045px>
+<a href=/p/builder-twrp/2022-01-12_02-08.png data-size=392x46>
+<img src=/p/builder-twrp/2022-01-12_02-08.png width=392 height=46 srcset="/p/builder-twrp/2022-01-12_02-08_hu50e9f925d1e4d19092d8193b07abda26_7484_480x0_resize_box_3.png 480w, /p/builder-twrp/2022-01-12_02-08_hu50e9f925d1e4d19092d8193b07abda26_7484_1024x0_resize_box_3.png 1024w" loading=lazy alt=BoardConfig.mk>
+</a>
+<figcaption>BoardConfig.mk</figcaption>
+</figure>
+TARGET_KERNEL_CONFIG := sagit-fox_defconfig > TARGET_KERNEL_CONFIG := 机型代号_defconfig<br>
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sagit > TARGET_KERNEL_SOURCE := kernel/品牌英文名称/机型代号<br>
+<figure class=gallery-image style=flex-grow:502;flex-basis:1205px>
+<a href=/p/builder-twrp/2022-01-12_02-10.png data-size=407x81>
+<img src=/p/builder-twrp/2022-01-12_02-10.png width=407 height=81 srcset="/p/builder-twrp/2022-01-12_02-10_hua510ce909ae8b28a42684f975cd95749_8130_480x0_resize_box_3.png 480w, /p/builder-twrp/2022-01-12_02-10_hua510ce909ae8b28a42684f975cd95749_8130_1024x0_resize_box_3.png 1024w" loading=lazy alt=BoardConfig.mk>
+</a>
+<figcaption>BoardConfig.mk</figcaption>
+</figure>
+TARGET_BOARD_PLATFORM := msm8998 > TARGET_BOARD_PLATFORM := 你的soc型号
+动态分区需要了解 super 分区大小，了解 spuer 分区包含那些分区<br>
+<figure class=gallery-image style=flex-grow:462;flex-basis:1109px>
+<a href=/p/builder-twrp/2022-01-12_02-20.png data-size=504x109>
+<img src=/p/builder-twrp/2022-01-12_02-20.png width=504 height=109 srcset="/p/builder-twrp/2022-01-12_02-20_hu0574f234785601beff9973d9f437412b_17736_480x0_resize_box_3.png 480w, /p/builder-twrp/2022-01-12_02-20_hu0574f234785601beff9973d9f437412b_17736_1024x0_resize_box_3.png 1024w" loading=lazy alt=动态分区需要的代码>
+</a>
+<figcaption>动态分区需要的代码</figcaption>
+</figure><br>
+如果不是动态分区请删除 #System as root 和 # AVB 还有 # fstab 代码段<br>
+没有 AVB 验证 可以删除 # AVB 代码段<br>
+如果有独立 recovery 分区，删除这些<br>
+如果不是请保留</li>
+<li>BOARD_USES_RECOVERY_AS_BOOT := true</li>
+<li>TARGET_NO_RECOVERY := true<br>
+这个是 # Bootloader</li>
+<li>TARGET_BOOTLOADER_BOARD_NAME := msm8998 > TARGET_BOOTLOADER_BOARD_NAME := 机型代号</li>
+<li>TARGET_NO_BOOTLOADER := true > TARGET_NO_BOOTLOADER := 有 fastboot 就 true，没有就 false</li>
+<li>TARGET_USES_UEFI := true V-AB 分区需要，如果不是就删除<br>
+<figure class=gallery-image style=flex-grow:585;flex-basis:1404px>
+<a href=/p/builder-twrp/2022-01-12_02-27.png data-size=398x68>
+<img src=/p/builder-twrp/2022-01-12_02-27.png width=398 height=68 srcset="/p/builder-twrp/2022-01-12_02-27_huad13b32475af804812504964c48f0d7c_9954_480x0_resize_box_3.png 480w, /p/builder-twrp/2022-01-12_02-27_huad13b32475af804812504964c48f0d7c_9954_1024x0_resize_box_3.png 1024w" loading=lazy alt=boot分区需要的代码>
+</a>
+<figcaption>boot分区需要的代码</figcaption>
+</figure><br>
+device.mk 文件，这个文件只用于 V-AB 分区和动态分区，还有 A/B 分区的手机<br>
+请在有 V-AB 分区的手机，device tree 仓库搜索复制到你的文件<br>
+只需要更改这一代码段就可以了
+LOCAL_PATH := device/xxxx/xxxx > LOCAL_PATH := device/品牌英文名称/机型代号<br>
+动态分区和 A/B 分区，我不知道怎么改。<br>
+omni_机型代号.mk 文件或者是 twrp_机型代号.mk
+<figure class=gallery-image style=flex-grow:173;flex-basis:417px>
+<a href=/p/builder-twrp/2022-01-12_02-51.png data-size=709x408>
+<img src=/p/builder-twrp/2022-01-12_02-51.png width=709 height=408 srcset="/p/builder-twrp/2022-01-12_02-51_huaabcd4050c861b99de37aaebe9a07ce6_50444_480x0_resize_box_3.png 480w, /p/builder-twrp/2022-01-12_02-51_huaabcd4050c861b99de37aaebe9a07ce6_50444_1024x0_resize_box_3.png 1024w" loading=lazy alt=omni_机型代号.mk>
+</a>
+<figcaption>omni_机型代号.mk</figcaption>
+</figure>
+PRODUCT_RELEASE_NAME := 机型代号<br>
+PRODUCT_DEVICE := 机型代号<br>
+PRODUCT_NAME := omni_机型代号 或者 twrp_机型代号<br>
+PRODUCT_BRAND := 厂家英文<br>
+PRODUCT_MODEL := 手机英文<br>
+PRODUCT_MANUFACTURER := 厂家英文</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>完&mldr;&mldr;</p>
 </section>
 <footer class=article-footer>
 <section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
@@ -174,8 +336,6 @@ Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=
 <div class=widget--toc>
 <nav id=TableOfContents>
 <ol>
-<li><a href=#existing-device-tree-compiled>Existing device tree compiled</a>
-<ol>
 <li><a href=#1create-foldercopy-twrpofrpshrp-repository>1:create folder,Copy TWRP/OFRP/SHRP repository</a>
 <ol>
 <li><a href=#11-sync>1.1: sync</a></li>
@@ -188,6 +348,13 @@ Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=
 <li><a href=#23-ofrp-vendorsetup>2.3: OFRP vendorsetup</a></li>
 </ol>
 </li>
+</ol>
+<ol>
+<li><a href=#1know-your-phone-partition>1:Know your phone partition</a>
+<ol>
+<li><a href=#11download-the-official-rom-and-extract-the-img-file>1.1:Download the official rom and extract the img file</a></li>
+<li><a href=#12device-tree-file-structure>1.2:Device tree file structure</a></li>
+<li><a href=#13write-the-device-tree-file>1.3:Write the device tree file</a></li>
 </ol>
 </li>
 </ol>
