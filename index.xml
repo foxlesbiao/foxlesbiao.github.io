@@ -24,7 +24,7 @@ TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc &amp;ndash;all) &amp;ndash;
 2: . build/envsetup.sh or source build/envsetup.sh&lt;br>
 3: make clean &amp;amp;&amp;amp; lunch omni_&lt;!-- raw HTML omitted -->-userdebug &amp;amp;&amp;amp; mka recoveryimage&lt;/p>
 &lt;h4 id="22-shrp-dtguide">2.2: SHRP dtGuide&lt;/h4>
-&lt;p>SHRP 需要编写 BoardConfig.mk&lt;br>
+&lt;p>SHRP 需要编写 BoardConfig.mk 才可以正常编译 SHRP
 &lt;em>&lt;a class="link" href="https://shrp.github.io/#/dtGuide" target="_blank" rel="noopener"
 >官方参考&lt;/a>&lt;/em> 也可以参考我的 &lt;em>&lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit/blob/fox_9.0/BoardConfig.mk" target="_blank" rel="noopener"
 >文件&lt;/a>&lt;/em> #SHRP 的部分&lt;br>
