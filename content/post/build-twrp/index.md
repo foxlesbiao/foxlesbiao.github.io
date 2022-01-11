@@ -39,7 +39,7 @@ TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc --all) --force-sync --no-cl
 
 #### 2.2: SHRP dtGuide
 SHRP 需要编写 BoardConfig.mk  
-可以参考我的 *[文件](https://github.com/foxlesbiao/SHRP-device-sagit/blob/fox_9.0/BoardConfig.mk)* #SHRP 的部分  
+*[官方参考](https://shrp.github.io/#/dtGuide)* 也可以参考我的 *[文件](https://github.com/foxlesbiao/SHRP-device-sagit/blob/fox_9.0/BoardConfig.mk)* #SHRP 的部分  
 ![SHRP dtGuide](2022-01-11_23-51.png)  
 
 #### 2.3: OFRP vendorsetup
