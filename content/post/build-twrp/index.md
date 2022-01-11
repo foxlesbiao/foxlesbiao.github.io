@@ -38,7 +38,7 @@ TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc --all) --force-sync --no-cl
 3: make clean && lunch omni_<device>-userdebug && mka recoveryimage  
 
 #### 2.2: SHRP dtGuide
-SHRP 需要编写 BoardConfig.mk  
+SHRP 需要编写 BoardConfig.mk 才可以正常编译 SHRP 
 *[官方参考](https://shrp.github.io/#/dtGuide)* 也可以参考我的 *[文件](https://github.com/foxlesbiao/SHRP-device-sagit/blob/fox_9.0/BoardConfig.mk)* #SHRP 的部分  
 ![SHRP dtGuide](2022-01-11_23-51.png)  
 
