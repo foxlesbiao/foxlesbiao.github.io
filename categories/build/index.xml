@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Build on lesfoxbiao</title><link>https://foxlesbiao.github.io/categories/build/</link><description>Recent content in Build on lesfoxbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/categories/build/index.xml" rel="self" type="application/rss+xml"/><item><title>How to compile TWRP</title><link>https://foxlesbiao.github.io/p/builder-twrp/</link><pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/builder-twrp/</guid><description>Existing device tree compiled 这里适合已经有 device tree github 仓库的
+This is suitable for existing device tree github warehouses
 1:create folder,Copy TWRP/OFRP/SHRP repository mkdir TWRP/OFRP/SHRP &amp;amp;&amp;amp; cd TWRP/OFRP/SHRP
 TeamWin Recovery Project: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git
 OrangeFox Recovery Project: https://gitlab.com/OrangeFox/Manifest.git
@@ -7,5 +8,4 @@ SKYHAWK Recovery Project: https://github.com/SHRP/platform_manifest_twrp_omni.gi
 OFRP：repo init -u https://gitlab.com/OrangeFox/Manifest.git -b fox_9.0
 SHRP：repo init -u git://github.com/SHRP/manifest.git -b v3_11.0/v3_10.0/v3_9.0
 SHRP 按照分支拉取，更改后面的 v3_11.0 就可以. 官方参考
-TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc &amp;ndash;all) &amp;ndash;force-sync &amp;ndash;no-clone-bundle &amp;ndash;no-tags
-2: copy device tree repository 1: cd source-dir</description></item></channel></rss>
+TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc &amp;ndash;all) &amp;ndash;force-sync &amp;ndash;no-clone-bundle &amp;ndash;no-tags</description></item></channel></rss>

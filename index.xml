@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lesfoxbiao</title><link>https://foxlesbiao.github.io/</link><description>Recent content on lesfoxbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>How to compile TWRP</title><link>https://foxlesbiao.github.io/p/builder-twrp/</link><pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/builder-twrp/</guid><description>&lt;h2 id="existing-device-tree-compiled">Existing device tree compiled&lt;/h2>
-&lt;p>这里适合已经有 device tree github 仓库的&lt;/p>
+&lt;p>这里适合已经有 device tree github 仓库的&lt;br>
+This is suitable for existing device tree github warehouses&lt;/p>
 &lt;h3 id="1create-foldercopy-twrpofrpshrp-repository">1:create folder,Copy TWRP/OFRP/SHRP repository&lt;/h3>
 &lt;p>mkdir TWRP/OFRP/SHRP &amp;amp;&amp;amp; cd TWRP/OFRP/SHRP&lt;br>
 TeamWin Recovery Project: &lt;a class="link" href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" target="_blank" rel="noopener"
@@ -24,7 +25,7 @@ TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc &amp;ndash;all) &amp;ndash;
 2: . build/envsetup.sh or source build/envsetup.sh&lt;br>
 3: make clean &amp;amp;&amp;amp; lunch omni_&lt;!-- raw HTML omitted -->-userdebug &amp;amp;&amp;amp; mka recoveryimage&lt;/p>
 &lt;h4 id="22-shrp-dtguide">2.2: SHRP dtGuide&lt;/h4>
-&lt;p>SHRP 需要编写 BoardConfig.mk 才可以正常编译 SHRP
+&lt;p>SHRP 需要编写 BoardConfig.mk 才可以正常编译 SHRP&lt;br>
 &lt;em>&lt;a class="link" href="https://shrp.github.io/#/dtGuide" target="_blank" rel="noopener"
 >官方参考&lt;/a>&lt;/em> 也可以参考我的 &lt;em>&lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit/blob/fox_9.0/BoardConfig.mk" target="_blank" rel="noopener"
 >文件&lt;/a>&lt;/em> #SHRP 的部分&lt;br>
@@ -45,7 +46,28 @@ alt="SHRP dtGuide">
 &lt;figcaption>SHRP dtGuide&lt;/figcaption>
 &lt;/figure>&lt;/p>
 &lt;h4 id="23-ofrp-vendorsetup">2.3: OFRP vendorsetup&lt;/h4>
-&lt;p>我忘记了&lt;/p></description></item><item><title>OrangeFox</title><link>https://foxlesbiao.github.io/p/orangefox/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/orangefox/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/orangefox/OrangeFox-Recovery.jpg" alt="Featured image of post OrangeFox" />&lt;h2 id="正文">正文&lt;/h2>
+&lt;p>和 SHRP 一样，OFRP 也有 var 特性&lt;br>
+在同步 OFRP 仓库之后， vendor/recovery/orangefox_build_vars.txt 就是 OFRP 全部 var 特性&lt;br>
+这个文件需要放在 vendor/omni/ 或者 device/ 文件夹里面&lt;br>
+vendor/omni/ 文件夹是全部设备
+device 文件夹是单独建立防止多设备编译搞混&lt;br>
+这是我的 vendorsetup.sh 文件
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 90;
+flex-basis: 217px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_00-15.png" data-size="631x695">
+&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_00-15.png"
+width="631"
+height="695"
+srcset="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_00-15_hua2c6f7dc0c8aea184c7b8650f1e1212d_125190_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_00-15_hua2c6f7dc0c8aea184c7b8650f1e1212d_125190_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="OFRP vendorsetup">
+&lt;/a>
+&lt;figcaption>OFRP vendorsetup&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>OrangeFox</title><link>https://foxlesbiao.github.io/p/orangefox/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/orangefox/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/orangefox/OrangeFox-Recovery.jpg" alt="Featured image of post OrangeFox" />&lt;h2 id="正文">正文&lt;/h2>
 &lt;p>这是一个适用于小米6 TWRP&lt;/p>
 &lt;p>This is a TWRP for Mi 6&lt;/p>
 &lt;p>支持 android 12 Data 解密&lt;/p>
