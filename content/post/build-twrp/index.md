@@ -32,6 +32,7 @@ TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc --all) --force-sync --no-cl
 ### 2: copy device tree repository
 1: cd source-dir  
 2: git clone git@github.com:foxlesbiao/SHRP-device-sagit.git device/sagit  
+注意这个是我的设备，这个仓库不适用你的手机
 
 #### 2.1: builder TWRP/OFRP/SHRP
 1: cd source-dir  
