@@ -141,8 +141,9 @@ alt="device tree file directory">
 放在 device tree 根目录的 prebuilt 目录下&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>
-&lt;p>编写 mk 文件 这个是按照我的文件编写的&lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit" target="_blank" rel="noopener"
+&lt;/ul>
+&lt;h3 id="14write-mk-file">1.4:write mk file&lt;/h3>
+&lt;p>这个是按照我的文件编写的&lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit" target="_blank" rel="noopener"
 >查看&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Android.mk 将红线部分改为你的机型代号&lt;br>
@@ -332,9 +333,7 @@ PRODUCT_MANUFACTURER := 厂家英文&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>完&amp;hellip;&amp;hellip;&lt;/p></description></item><item><title>OrangeFox</title><link>https://foxlesbiao.github.io/p/orangefox/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/orangefox/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/orangefox/OrangeFox-Recovery.jpg" alt="Featured image of post OrangeFox" />&lt;h2 id="正文">正文&lt;/h2>
+&lt;p>完&amp;hellip;&amp;hellip;应该&lt;/p></description></item><item><title>OrangeFox</title><link>https://foxlesbiao.github.io/p/orangefox/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/orangefox/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/orangefox/OrangeFox-Recovery.jpg" alt="Featured image of post OrangeFox" />&lt;h2 id="正文">正文&lt;/h2>
 &lt;p>这是一个适用于小米6 TWRP&lt;/p>
 &lt;p>This is a TWRP for Mi 6&lt;/p>
 &lt;p>支持 android 12 Data 解密&lt;/p>
