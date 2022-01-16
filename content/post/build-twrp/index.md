@@ -93,7 +93,8 @@ This is suitable for github without device tree repository
    - 把 split-img 文件夹下的 xxxx-dtbo and xxxx-dtb and xxxx-kernel  
      分别重命名为 dtbo.img and dtb.img and image.gz  
      放在 device tree 根目录的 prebuilt 目录下  
-- 编写 mk 文件 这个是按照我的文件编写的[查看](https://github.com/foxlesbiao/SHRP-device-sagit)
+ ### 1.4:write mk file
+   这个是按照我的文件编写的[查看](https://github.com/foxlesbiao/SHRP-device-sagit)
    - Android.mk 将红线部分改为你的机型代号  
      ![Android.mk](2022-01-12_01-38.png)
    - AndroidProducts.mk 将红线部分改为你自己所命名的文件  
@@ -142,4 +143,4 @@ PRODUCT_BRAND := 厂家英文
 PRODUCT_MODEL := 手机英文  
 PRODUCT_MANUFACTURER := 厂家英文  
 
-完......
+完......应该
