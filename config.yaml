@@ -27,7 +27,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: img/avatar.ico
+    favicon: 
 
     footer:
         since: 2020
@@ -185,12 +185,6 @@ menu:
           url: https://github.com/foxlesbiao
           params:
             icon: brand-github
-            
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-            icon: brand-twitter
 
 related:
     includeNewer: true
