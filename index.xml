@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lesfoxbiao</title><link>https://foxlesbiao.github.io/</link><description>Recent content on lesfoxbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>How to compile TWRP</title><link>https://foxlesbiao.github.io/p/builder-twrp/</link><pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/builder-twrp/</guid><description>&lt;h1 id="existing-device-tree-compiled">Existing device tree compiled&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lesfoxbiao</title><link>https://foxlesbiao.github.io/</link><description>Recent content on lesfoxbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 22 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>PROJECT ELIXIR for Xiaomi Mi 6</title><link>https://foxlesbiao.github.io/p/android12-sagit/</link><pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/android12-sagit/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/android12-sagit/snHlKrS2.jpg" alt="Featured image of post PROJECT ELIXIR for Xiaomi Mi 6" />&lt;blockquote>
+&lt;p>更新状态: 维护中&lt;br>
+update status: maintain&lt;br>
+构建: Unofficial&lt;br>
+Construct: Unofficial&lt;/p>
+&lt;/blockquote>
+&lt;h1 id="project-elixir">Project Elixir&lt;/h1>
+&lt;p>Project Elixir is another aftermarket AOSP ROM which basically offers minimal UI enhancement &amp;amp; close to Stock Android ROM with great performance, security and stability. Most of the OEMs' these days will provide slow and untimely updates, but we don&amp;rsquo;t do that here. We closely follow Google to bring the latest updates to our users, and even prolong support for devices that have been declared obsolete by OEMs. Our ROMs' source code is open-source, secure, stable, and outstanding. Your experience while using Project Elixir will be butter smooth without compromising the quality of the Android experience. In short, it&amp;rsquo;s perfectly balanced between Great Performance, Security, stability, minimal UI &amp;amp; awesome features including pixel goodies So do not hesitate anymore, join us now and start enjoying the beauty of stock Android. Download and enjoy Project Elixir on your respective devices!&lt;/p>
+&lt;h1 id="download">Download&lt;/h1>
+&lt;p>Please keep in mind that these are Gapps Builds and there is no vanilla build of this rom available.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/foxlesbiao/foxlesbiao.github.io/releases/tag/v1.3-1" target="_blank" rel="noopener"
+>Download&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;h1 id="what-works">What works?&lt;/h1>
+&lt;p>Wifi | RIL | Mobile data | GPS | Camera
+Flashlight | Camcorder | Bluetooth | Fingerprint reader | Lights | Sound | vibration
+Almost everything&lt;/p>
+&lt;h1 id="what-doesnt-work-or-any-bug-">What doesn&amp;rsquo;t work? or Any Bug ?&lt;/h1>
+&lt;p>You tell me&lt;/p>
+&lt;h1 id="sources-and-documentation">Sources and Documentation&lt;/h1>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/Project-Elixir" target="_blank" rel="noopener"
+>ROM Source Code&lt;/a>&lt;/em>&lt;br>
+&lt;em>&lt;a class="link" href="https://github.com/AOSP-12/device_xiaomi_sagit" target="_blank" rel="noopener"
+>sagit&lt;/a>&lt;/em>&lt;br>
+&lt;em>&lt;a class="link" href="https://github.com/AOSP-12/device_xiaomi_msm8998-common" target="_blank" rel="noopener"
+>msm8998-common&lt;/a>&lt;/em>&lt;br>
+&lt;em>&lt;a class="link" href="https://github.com/AOSP-12/vendor_xiaomi" target="_blank" rel="noopener"
+>vendor xiaomi&lt;/a>&lt;/em>&lt;br>
+&lt;em>&lt;a class="link" href="https://github.com/AOSP-12/kernel_xiaomi_msm8998" target="_blank" rel="noopener"
+>kernerl&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;h1 id="update-log">update log&lt;/h1>
+&lt;h2 id="2022122">2022/1/22&lt;/h2>
+&lt;p>1.first build&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 39;
+flex-basis: 94px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/android12-sagit/Screenshot_20220122-201236_Settings.png" data-size="1080x2741">
+&lt;img src="https://foxlesbiao.github.io/p/android12-sagit/Screenshot_20220122-201236_Settings.png"
+width="1080"
+height="2741"
+srcset="https://foxlesbiao.github.io/p/android12-sagit/Screenshot_20220122-201236_Settings_hu0c468fcd9f7582ed349a79d0693f157a_177614_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/android12-sagit/Screenshot_20220122-201236_Settings_hu0c468fcd9f7582ed349a79d0693f157a_177614_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by Settings">
+&lt;/a>
+&lt;figcaption>Photo by Settings&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>How to compile TWRP</title><link>https://foxlesbiao.github.io/p/builder-twrp/</link><pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/builder-twrp/</guid><description>&lt;h1 id="existing-device-tree-compiled">Existing device tree compiled&lt;/h1>
 &lt;p>这里适合已经有 device tree github 仓库的&lt;br>
 This is suitable for existing device tree github warehouses&lt;/p>
 &lt;h2 id="1create-foldercopy-twrpofrpshrp-repository">1:create folder,Copy TWRP/OFRP/SHRP repository&lt;/h2>
@@ -20,14 +71,14 @@ TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc &amp;ndash;all) &amp;ndash;
 &lt;h2 id="2-copy-device-tree-repository">2: copy device tree repository&lt;/h2>
 &lt;ul>
 &lt;li>cd source-dir&lt;/li>
-&lt;li>git clone &lt;a class="link" href="mailto:git@github.com" >git@github.com&lt;/a>:foxlesbiao/SHRP-device-sagit.git device/sagit&lt;br>
+&lt;li>git clone &lt;a class="link" href="mailto:git@github.com" >git@github.com&lt;/a>:foxlesbiao/SHRP-device-sagit.git device/xiaomi/sagit&lt;br>
 注意这个是我的设备，这个仓库不适用你的手机&lt;/li>
 &lt;/ul>
 &lt;h3 id="21-builder-twrpofrpshrp">2.1: builder TWRP/OFRP/SHRP&lt;/h3>
 &lt;ul>
 &lt;li>cd source-dir&lt;/li>
 &lt;li>. build/envsetup.sh or source build/envsetup.sh&lt;/li>
-&lt;li>make clean &amp;amp;&amp;amp; lunch omni_&lt;!-- raw HTML omitted -->-userdebug &amp;amp;&amp;amp; mka recoveryimage&lt;/li>
+&lt;li>make clean &amp;amp;&amp;amp; lunch omni_&lt;!-- raw HTML omitted -->-eng &amp;amp;&amp;amp; mka recoveryimage&lt;/li>
 &lt;/ul>
 &lt;h3 id="22-shrp-dtguide">2.2: SHRP dtGuide&lt;/h3>
 &lt;p>SHRP 需要编写 BoardConfig.mk 才可以正常编译 SHRP&lt;br>
