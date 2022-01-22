@@ -3,7 +3,7 @@ title: OrangeFox
 description: sagit twrp
 date: 2022-01-06
 slug: OrangeFox
-image: OrangeFox-Recovery.jpg
+image: logo.jpg
 categories:
     - sagit
     - twrp

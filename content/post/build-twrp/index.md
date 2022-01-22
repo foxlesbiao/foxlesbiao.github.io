@@ -3,7 +3,7 @@ title: How to compile TWRP
 description: How to build TWRP/OFRP/SHRP
 date: 2022-01-11
 slug: builder-TWRP
-image: 
+image: logo.jpg
 categories:
     - Build
     - TWRP
