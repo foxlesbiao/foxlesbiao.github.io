@@ -9,7 +9,7 @@ categories:
     - TWRP
     - OrangeFox
     - SHRP
-lastmod: '2022-01-16'
+lastmod: '2022-01-20'
 ---
 
 # Existing device tree compiled
@@ -32,13 +32,13 @@ TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc --all) --force-sync --no-cl
 
 ## 2: copy device tree repository
 -  cd source-dir  
--  git clone git@github.com:foxlesbiao/SHRP-device-sagit.git device/sagit  
+-  git clone git@github.com:foxlesbiao/SHRP-device-sagit.git device/xiaomi/sagit  
 注意这个是我的设备，这个仓库不适用你的手机
 
 ### 2.1: builder TWRP/OFRP/SHRP
 -  cd source-dir  
 -  . build/envsetup.sh or source build/envsetup.sh  
--  make clean && lunch omni_<device>-userdebug && mka recoveryimage  
+-  make clean && lunch omni_<device>-eng && mka recoveryimage  
 
 ### 2.2: SHRP dtGuide
 SHRP 需要编写 BoardConfig.mk 才可以正常编译 SHRP  
