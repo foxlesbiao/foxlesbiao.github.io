@@ -49,7 +49,7 @@ loading="lazy"
 alt="Photo by Settings">
 &lt;/a>
 &lt;figcaption>Photo by Settings&lt;/figcaption>
-&lt;/figure>&lt;/p></description></item><item><title>How to compile TWRP</title><link>https://foxlesbiao.github.io/p/builder-twrp/</link><pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/builder-twrp/</guid><description>&lt;h1 id="existing-device-tree-compiled">Existing device tree compiled&lt;/h1>
+&lt;/figure>&lt;/p></description></item><item><title>How to compile TWRP</title><link>https://foxlesbiao.github.io/p/builder-twrp/</link><pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/builder-twrp/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/logo.jpg" alt="Featured image of post How to compile TWRP" />&lt;h1 id="existing-device-tree-compiled">Existing device tree compiled&lt;/h1>
 &lt;p>这里适合已经有 device tree github 仓库的&lt;br>
 This is suitable for existing device tree github warehouses&lt;/p>
 &lt;h2 id="1create-foldercopy-twrpofrpshrp-repository">1:create folder,Copy TWRP/OFRP/SHRP repository&lt;/h2>
@@ -384,7 +384,7 @@ PRODUCT_MANUFACTURER := 厂家英文&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>完&amp;hellip;&amp;hellip;应该&lt;/p></description></item><item><title>OrangeFox</title><link>https://foxlesbiao.github.io/p/orangefox/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/orangefox/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/orangefox/OrangeFox-Recovery.jpg" alt="Featured image of post OrangeFox" />&lt;h2 id="正文">正文&lt;/h2>
+&lt;p>完&amp;hellip;&amp;hellip;应该&lt;/p></description></item><item><title>OrangeFox</title><link>https://foxlesbiao.github.io/p/orangefox/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/orangefox/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/orangefox/logo.jpg" alt="Featured image of post OrangeFox" />&lt;h2 id="正文">正文&lt;/h2>
 &lt;p>这是一个适用于小米6 TWRP&lt;/p>
 &lt;p>This is a TWRP for Mi 6&lt;/p>
 &lt;p>支持 android 12 Data 解密&lt;/p>
