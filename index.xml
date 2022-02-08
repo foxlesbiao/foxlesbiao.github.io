@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lesfoxbiao</title><link>https://foxlesbiao.github.io/</link><description>Recent content on lesfoxbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Octavi OS for Xiaomi Mi 6</title><link>https://foxlesbiao.github.io/p/octavios-sagit/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/octavios-sagit/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/octavios-sagit/About.png" alt="Featured image of post Octavi OS for Xiaomi Mi 6" />&lt;h1 id="heading">&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lesfoxbiao</title><link>https://foxlesbiao.github.io/</link><description>Recent content on lesfoxbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 08 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>How to compile Android Open Source Project</title><link>https://foxlesbiao.github.io/p/builder-aosp/</link><pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/builder-aosp/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/builder-aosp/facebook_cover_photo_1.png" alt="Featured image of post How to compile Android Open Source Project" />&lt;h1 id="系統環境">系統環境&lt;/h1>
+&lt;p>我的是 Manjaro KDE Plasma 21.2.2 和 Arch KDE&lt;/p>
+&lt;h1 id="工具和依賴">工具和依賴&lt;/h1>
+&lt;blockquote>
+&lt;p>lib32-gcc-libs git gnupg flex bison gperf sdl wxgtk2 squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt bc rsync ncurses5-compat-libs lib32-zlib lib32-ncurses lib32-readline lib32-ncurses5-compat-libs aosp-devel lineageos-devel&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://wiki.archlinux.org/title/java" target="_blank" rel="noopener"
+>openjdk&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h1 id="同步-android-open-source-project-和-device-tree">同步 Android Open Source Project 和 device tree&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>ROM &lt;a class="link" href="https://github.com/Project-Elixir/manifest" target="_blank" rel="noopener"
+>參考&lt;/a> projrct-elixir&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>mkdir projrct-elixir &amp;amp;&amp;amp; cd projrct-elixir&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>repo init -u &lt;a class="link" href="https://github.com/Project-Elixir/manifest" target="_blank" rel="noopener"
+>https://github.com/Project-Elixir/manifest&lt;/a> -b snow&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>repo sync -c -j$(nproc &amp;ndash;all) &amp;ndash;force-sync &amp;ndash;no-clone-bundle &amp;ndash;no-tags&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>device tree &lt;a class="link" href="https://github.com/AOSP-12" target="_blank" rel="noopener"
+>參考&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>git clone &lt;a class="link" href="https://github.com/AOSP-12/device_xiaomi_sagit.git" target="_blank" rel="noopener"
+>https://github.com/AOSP-12/device_xiaomi_sagit.git&lt;/a> device/xiaomi/sagit&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>git clone &lt;a class="link" href="https://github.com/AOSP-12/device_xiaomi_msm8998-common.git" target="_blank" rel="noopener"
+>https://github.com/AOSP-12/device_xiaomi_msm8998-common.git&lt;/a> device/xiaomi/msm8998-common&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>git clone &lt;a class="link" href="https://github.com/AOSP-12/vendor_xiaomi.git" target="_blank" rel="noopener"
+>https://github.com/AOSP-12/vendor_xiaomi.git&lt;/a> vendor/xiaomi&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>git clone &lt;a class="link" href="https://github.com/AOSP-12/kernel_xiaomi_msm8998.git" target="_blank" rel="noopener"
+>https://github.com/AOSP-12/kernel_xiaomi_msm8998.git&lt;/a> kernel/xiaomi/msm8998&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="修改文件">修改文件&lt;/h1>
+&lt;p>參考你要編譯 ROM device 官方倉庫
+比如 &lt;a class="link" href="https://github.com/OctaviOS-Devices" target="_blank" rel="noopener"
+>OctaviOS-Devices&lt;/a>&lt;br>
+隨便找一個 device_xxxxx_xxxx&lt;br>
+把 AndroidProducts.mk 和 aosp_sagit.mk 改成官方倉庫的樣子&lt;/p>
+&lt;ul>
+&lt;li>aosp_sagit.mk &amp;gt; octavi_sagit.mk&lt;/li>
+&lt;li>打開 AndroidProducts.mk 和 aosp_sagit.mk，按照下面的來改&lt;/li>
+&lt;li>PRODUCT_NAME := aosp_sagit &amp;gt; PRODUCT_NAME := octavi_sagit&lt;/li>
+&lt;li>$(LOCAL_DIR)/aosp_sagit.mk &amp;gt; $(LOCAL_DIR)/octavi_sagit.mk&lt;/li>
+&lt;/ul>
+&lt;h1 id="開始編譯">開始編譯&lt;/h1>
+&lt;p>. build/envsetup.sh&lt;/p>
+&lt;p>lunch aosp_$device-userdebug&lt;/p>
+&lt;p>brunch $device&lt;/p></description></item><item><title>Octavi OS for Xiaomi Mi 6</title><link>https://foxlesbiao.github.io/p/octavios-sagit/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/octavios-sagit/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/octavios-sagit/About.png" alt="Featured image of post Octavi OS for Xiaomi Mi 6" />&lt;h1 id="heading">&lt;/h1>
 &lt;p>OctaviOS is an AOSP based rom focusing on Unique and Smooth UI with handy features. OctaviOS is a reborn of pie based PearlOS.&lt;/p>
 &lt;ul>
 &lt;li>Your warranty is now void.&lt;/li>
