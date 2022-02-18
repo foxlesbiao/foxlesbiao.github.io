@@ -19,6 +19,7 @@ menu:
 # Contact information
 [email](mailto:addresseui@gmail.com)  
 [Github](https://github.com/foxlesbiao)  
+[Skype](https://join.skype.com/invite/yZBnVrApdcww)  
 # Links
 [Newbug Blog](https://newabug.top/)  
 [iNetech Blog](https://blog.inetech.fun)  
