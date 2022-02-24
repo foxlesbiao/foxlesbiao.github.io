@@ -1,6 +1,6 @@
 ---
 title: Octavi OS for Xiaomi Mi 6
-description: Unofficial 12.0 3.3
+description: Unofficial 12.0 3.4
 date: 2022-02-04
 slug: OctaviOS-sagit
 image: About.png
@@ -11,7 +11,7 @@ categories:
     - ROM
     - AOSP
 
-lastmod: '2022-02-04'
+lastmod: '2022-02-24'
 ---
 
 #
@@ -32,7 +32,7 @@ OctaviOS is an AOSP based rom focusing on Unique and Smooth UI with handy featur
 -Flash magisk (optional)
 -Reboot
 
-> *[Download](https://github.com/foxlesbiao/foxlesbiao.github.io/releases/tag/v3.3)*
+> *[Download](https://github.com/foxlesbiao/foxlesbiao.github.io/releases/tag/v3.4)*
 
 
 
@@ -68,6 +68,6 @@ Based On: AOSP
 Version Information  
 Status: Testing  
 SELinux Status: Permissive  
-Release Date: 2022-02-04
+Release Date: 2022-02-24
 
 ![Photo by foxlesbiao](Screenshot_20220204-145705.png)
