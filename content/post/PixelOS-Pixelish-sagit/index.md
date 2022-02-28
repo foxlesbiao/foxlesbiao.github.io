@@ -1,73 +1,102 @@
 ---
-title: Octavi OS for Xiaomi Mi 6
-description: Unofficial 12.0 3.3
-date: 2022-02-04
-slug: OctaviOS-sagit
-image: About.png
+title: PixelOS for Xiaomi Mi 6
+description: Unofficial 12.0 
+date: 2022-03-01
+slug: PixelOS-sagit
+image: latest.png
 categories:
     - Sagit
     - Android
-    - Octavi-OS
+    - PixelOS
     - ROM
     - AOSP
 
-lastmod: '2022-02-04'
+lastmod: '2022-03-01'
 ---
 
-#
-OctaviOS is an AOSP based rom focusing on Unique and Smooth UI with handy features. OctaviOS is a reborn of pie based PearlOS.
+# PixelOS
+PixelOS is an AOSP based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, themed icons,  google sans fonts, Monet color based system wide theming, boot animation), a fork of OG Pixel Experience with improvements on the top of it. Huge respect to Pixel Experience team for their work, thanks to them for making this ROM possible.  
+In short a fully functional Pixel Experience with just the right amount of essentials.  
 
- * Your warranty is now void.
- * We are not responsible for anything that may happen to your phone by installing any custom ROMs and/or kernels. 
- * You do it at your own risk and take the responsibility upon yourself and you are not to blame us or XDA and its respected developers.
+# Your warranty is now void.
+*
+* I am not responsible for bricked devices, dead SD cards,  
+* thermonuclear war, or you getting fired because the alarm app failed. Please  
+* do some research if you have any concerns about features included in this ROM  
+* before flashing it! YOU are choosing to make these modifications, and if  
+* you point the finger at me for messing up your device, I will laugh at you.  
 
-# CLEAN FLASH
--Reboot to recovery 
--Take Backup (Not Necessary)
--Flash your firmware(If required)
--Reboot To Recovery
--Wipe System, Vendor, Cache, Dalvik Cache and Data
--Flash the ROM
--Flash Gapps
--Flash magisk (optional)
--Reboot
+# Improvements over PixelExperience  
+Performance improvements from ProtonAOSP  
+3-finger swipe to capture screenshots  
+Double tap to sleep on lockscreen and status bar  
+Added Screen Recording Customizations  
+Added Advanced Reboot  
+Allow disabling Screenshot Sounds  
+Added Bluetooth headset battery indicator  
+Added in-call vibration options  
+First class implementation of [URL="https://t.me/repainter_support/5432"]Repainter app[/URL]
+Added Adaptive playback  
+Added themed icons for a lot of third party icons in stock Pixel launcher  
+Added monet to Settings app icon color  
+Added monet in power menu  
+Exposed legacy WiFi and Cellular data QS tiles  
+Added an option to disable unlock ripple animation  
+Added bluetooth battery level indicator on status bar  
+Added NFC tile in QS for supported devices  
+Added double tap/long press power button to toggle torch  
+Reduced log spam verbosity  
+A lot of under the hood UI fixes and improvements  
 
-> *[Download](https://github.com/foxlesbiao/foxlesbiao.github.io/releases/tag/v3.3)*
+# Device Specific Issues
 
+## Requirements
 
+# Downloads 
+> Get the latest PixelOS Build for[Download](https://pixelos.vercel.app/download)  
+> [Firmware](https://xiaomifirmwareupdater.com/firmware)  
+> [Magisk (optional)](https://github.com/topjohnwu/Magisk/releases)  
+> [DFE optional not recommended](https://github.com/PixelOS-Devices/builds/releases/download/2021-10-28/Disable_Dm-Verity_ForceEncrypt_20201008.zip)  
+# Recovery
+> [PixelOS Recovery (no rec available)](https://sourceforge.net/projects/pixelos-releases/files/twelve/*/recovery/)  
+> [Orangefox Recovery](https://github.com/foxlesbiao/SHRP-device-sagit/releases)  
 
--Lineage OS  
--AOSP  
--Superior OS  
--Pixel Experience  
--Extended UI  
--Havoc OS  
--CrDroid ROM  
--Fluid OS  
--Others, I forgot to mention  
+Note: GApps are included, don't flash separately.  
+# Notes  
+• Encryption is enabled by default  
+• SELinux is enforcing/permissive  
+• (?) Support related to MIUI/ANX Camera  
+• (?) QuicksilveR v2.5 Kernel Included  
 
-> *[OctaviOS Source](https://github.com/Octavi-OS)*  
+PixelOS Recovery is recommended if you want to stay encrypted, no custom recovery supports encryption on Android12, i.e. you won't be able to decrypt your data.  
 
-> *[Telegram Group](https://t.me/OctaviOS_Chat)*
+<!-- Might be different for different devices -->
+# Flashing Instructions
+Clean flash (coming from a different ROM):  
+• Download ROM from the link above  
+• Download Magisk v23.0 or newer (optionally)  
+• Reboot to recovery  
+• Format data (if encrypted)  
+• Wipe system, vendor, cache, dalvik, data  
+• Flash latest android 11 global stable firmware (link above)  
+• Flash ROM zip  
+• Reboot and voila!  
+• To get root access, reboot to recovery after ROM setup and flash magisk.  
 
-# REPORTING BUGS  
-> *[As soon as the problem occurs, take a logcat!](http://telegra.ph/Logcats-are-important-03-01)*
+Updating to a newer build (dirty flash):  
+• Flash ROM zip and magisk (optional)  
+• Wipe system, vendor, cache, dalvik  
+• Reboot and voila!  
 
-OctaviOS for Device_Name  
-Device: sagit  
-Maintainer: foxlesbiao  
-Build Type: Unofficial  
+> [contact me](https://foxlesbiao.github.io/about/)  
 
-[Kernel Source](https://github.com/ppooopppooo/kernel_xiaomi_msm8998)  
+# Source Code   
+> [PixelOS](http://github.com/PixelOS-Pixelish)  
+> [Device Tree and Vendor Tree](https://github.com/AOSP-12)  
+> [Kernel Tree](https://github.com/ppooopppooo/kernel_xiaomi_msm8998)  
 
-ROM OS Version: 12.0  
-ROM Kernel: Linux 4.4  
-ROM Firmware Required: Must be on Latest Firmware
-Based On: AOSP
+ROM OS Version: Android 12.0  
+ROM Kernel: Linux 4.4.285  
+Latest Release Date: 2022-03-01  
 
-Version Information  
-Status: Testing  
-SELinux Status: Permissive  
-Release Date: 2022-02-04
-
-![Photo by foxlesbiao](Screenshot_20220204-145705.png)
+![Photo by foxlesbiao](Screenshot_20220228-235758_Settings.png)  
