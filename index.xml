@@ -1,4 +1,99 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lesfoxbiao</title><link>https://foxlesbiao.github.io/</link><description>Recent content on lesfoxbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 08 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>How to compile Android Open Source Project</title><link>https://foxlesbiao.github.io/p/builder-aosp/</link><pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/builder-aosp/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/builder-aosp/facebook_cover_photo_1.png" alt="Featured image of post How to compile Android Open Source Project" />&lt;h1 id="系統環境">系統環境&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lesfoxbiao</title><link>https://foxlesbiao.github.io/</link><description>Recent content on lesfoxbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>PixelOS for Xiaomi Mi 6</title><link>https://foxlesbiao.github.io/p/pixelos-sagit/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/pixelos-sagit/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/pixelos-sagit/latest.png" alt="Featured image of post PixelOS for Xiaomi Mi 6" />&lt;h1 id="pixelos">PixelOS&lt;/h1>
+&lt;p>PixelOS is an AOSP based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, themed icons, google sans fonts, Monet color based system wide theming, boot animation), a fork of OG Pixel Experience with improvements on the top of it. Huge respect to Pixel Experience team for their work, thanks to them for making this ROM possible.&lt;br>
+In short a fully functional Pixel Experience with just the right amount of essentials.&lt;/p>
+&lt;p>Your warranty is now void.&lt;/p>
+&lt;ul>
+&lt;li>I am not responsible for bricked devices, dead SD cards,&lt;/li>
+&lt;li>thermonuclear war, or you getting fired because the alarm app failed. Please&lt;/li>
+&lt;li>do some research if you have any concerns about features included in this ROM&lt;/li>
+&lt;li>before flashing it! YOU are choosing to make these modifications, and if&lt;/li>
+&lt;li>you point the finger at me for messing up your device, I will laugh at you.&lt;/li>
+&lt;/ul>
+&lt;h1 id="improvements-over-pixelexperience">Improvements over PixelExperience&lt;/h1>
+&lt;p>Performance improvements from ProtonAOSP&lt;br>
+3-finger swipe to capture screenshots
+Double tap to sleep on lockscreen and status bar&lt;br>
+Added Screen Recording Customizations&lt;br>
+Added Advanced Reboot&lt;br>
+Allow disabling Screenshot Sounds&lt;br>
+Added Bluetooth headset battery indicator&lt;br>
+Added in-call vibration options&lt;br>
+First class implementation of &lt;a class="link" href="https://t.me/repainter_support/5432" target="_blank" rel="noopener"
+>URL&lt;/a> Repainter app&lt;br>
+Added Adaptive playback&lt;br>
+Added themed icons for a lot of third party icons in stock Pixel launcher&lt;br>
+Added monet to Settings app icon color&lt;br>
+Added monet in power menu&lt;br>
+Exposed legacy WiFi and Cellular data QS tiles&lt;br>
+Added an option to disable unlock ripple animation&lt;br>
+Added bluetooth battery level indicator on status bar&lt;br>
+Added NFC tile in QS for supported devices&lt;br>
+Added double tap/long press power button to toggle torch&lt;br>
+Reduced log spam verbosity&lt;br>
+A lot of under the hood UI fixes and improvements&lt;/p>
+&lt;h1 id="device-specific-issues">Device Specific Issues:&lt;/h1>
+&lt;h1 id="requirements">Requirements&lt;/h1>
+&lt;h1 id="downloads">Downloads&lt;/h1>
+&lt;p>&lt;a class="link" href="https://github.com/foxlesbiao/foxlesbiao.github.io/releases/tag/v3.4-test" target="_blank" rel="noopener"
+>Download&lt;/a>&lt;br>
+&lt;a class="link" href="https://xiaomifirmwareupdater.com/firmware/sagit/" target="_blank" rel="noopener"
+>Firmware&lt;/a>&lt;br>
+&lt;a class="link" href="https://github.com/topjohnwu/Magisk/releases" target="_blank" rel="noopener"
+>Magisk (optional) &lt;/a>&lt;br>
+&lt;a class="link" href="https://github.com/PixelOS-Devices/builds/releases/download/2021-10-28/Disable_Dm-Verity_ForceEncrypt_20201008.zip" target="_blank" rel="noopener"
+>DFE (optional) (not recommended) &lt;/a>&lt;/p>
+&lt;h1 id="recovery">Recovery&lt;/h1>
+&lt;p>PixelOS Recovery &lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit/releases" target="_blank" rel="noopener"
+>https://github.com/foxlesbiao/SHRP-device-sagit/releases&lt;/a>&lt;/p>
+&lt;p>Note: GApps are included, don&amp;rsquo;t flash separately.&lt;/p>
+&lt;p>Notes&lt;br>
+• Encryption is enabled by default&lt;br>
+• SELinux is enforcing/permissive&lt;br>
+• (?) Support related to MIUI/ANX Camera&lt;br>
+• (?) QuicksilveR v2.5 Kernel Included&lt;/p>
+&lt;p>PixelOS Recovery is recommended if you want to stay encrypted, no custom recovery supports encryption on Android12, i.e. you won&amp;rsquo;t be able to decrypt your data.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>Flashing Instructions&lt;br>
+Clean flash (coming from a different ROM):&lt;br>
+• Download ROM from the link above&lt;br>
+• Download Magisk v23.0 or newer (optionally)&lt;br>
+• Reboot to recovery&lt;br>
+• Format data (if encrypted)&lt;br>
+• Wipe system, vendor, cache, dalvik, data&lt;br>
+• Flash latest android 11 global stable firmware (link above)&lt;br>
+• Flash ROM zip&lt;br>
+• Reboot and voila!&lt;br>
+• To get root access, reboot to recovery after ROM setup and flash magisk.&lt;/p>
+&lt;p>Updating to a newer build (dirty flash):&lt;br>
+• Flash ROM zip and magisk (optional)&lt;br>
+• Wipe system, vendor, cache, dalvik&lt;br>
+• Reboot and voila!&lt;/p>
+&lt;p>Source Code&lt;br>
+PixelOS &lt;a class="link" href="http://github.com/PixelOS-Pixelish" target="_blank" rel="noopener"
+>http://github.com/PixelOS-Pixelish&lt;/a>&lt;br>
+Device Tree and Vendor Tree &lt;a class="link" href="https://github.com/Huexxx" target="_blank" rel="noopener"
+>https://github.com/Huexxx&lt;/a>&lt;br>
+Kernel Tree &lt;a class="link" href="https://github.com/Huexxx/kernel_xiaomi_msm8998" target="_blank" rel="noopener"
+>https://github.com/Huexxx/kernel_xiaomi_msm8998&lt;/a>&lt;/p>
+&lt;p>ROM OS Version: Android 12.0&lt;br>
+ROM Kernel: Linux 4.14.x&lt;br>
+Latest Release Date: 2022-03-01&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 56;
+flex-basis: 135px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/pixelos-sagit/Screenshot_20220228-235758_Settings.png" data-size="1080x1920">
+&lt;img src="https://foxlesbiao.github.io/p/pixelos-sagit/Screenshot_20220228-235758_Settings.png"
+width="1080"
+height="1920"
+srcset="https://foxlesbiao.github.io/p/pixelos-sagit/Screenshot_20220228-235758_Settings_hu0bdd0ac677af3470f4ab1315cd48fd99_141143_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/pixelos-sagit/Screenshot_20220228-235758_Settings_hu0bdd0ac677af3470f4ab1315cd48fd99_141143_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by Settings">
+&lt;/a>
+&lt;figcaption>Photo by Settings&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>How to compile Android Open Source Project</title><link>https://foxlesbiao.github.io/p/builder-aosp/</link><pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/builder-aosp/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/builder-aosp/facebook_cover_photo_1.png" alt="Featured image of post How to compile Android Open Source Project" />&lt;h1 id="系統環境">系統環境&lt;/h1>
 &lt;p>我的是 Manjaro KDE Plasma 21.2.2 和 Arch KDE&lt;/p>
 &lt;h1 id="工具和依賴">工具和依賴&lt;/h1>
 &lt;blockquote>
@@ -616,4 +711,4 @@ loading="lazy"
 alt="Photo by OrangeFox-Recovery">
 &lt;/a>
 &lt;figcaption>Photo by OrangeFox-Recovery&lt;/figcaption>
-&lt;/figure>&lt;/p></description></item><item><title/><link>https://foxlesbiao.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/</guid><description/></item></channel></rss>
+&lt;/figure>&lt;/p></description></item></channel></rss>
