@@ -3,7 +3,7 @@ title: Teaching Timeshift
 description: Timeshift
 date: 2022-03-02
 slug: OctaviOS-chiron
-image: About.png
+image: j3r6pw.jpg
 categories:
     - Linux
     - Arch
