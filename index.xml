@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lesfoxbiao</title><link>https://foxlesbiao.github.io/</link><description>Recent content on lesfoxbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Octavi OS for Xiaomi Mix 2</title><link>https://foxlesbiao.github.io/p/octavios-chiron/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/octavios-chiron/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/octavios-chiron/About.png" alt="Featured image of post Octavi OS for Xiaomi Mix 2" />&lt;h1 id="heading">&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lesfoxbiao</title><link>https://foxlesbiao.github.io/</link><description>Recent content on lesfoxbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 02 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Teaching Timeshift</title><link>https://foxlesbiao.github.io/p/octavios-chiron/</link><pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/octavios-chiron/</guid><description>&lt;img src="https://foxlesbiao.github.io/About.png" alt="Featured image of post Teaching Timeshift" />&lt;h1 id="install-timeshift">install timeshift&lt;/h1>
+&lt;blockquote>
+&lt;p>paru -Sy timeshift&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="start-timeshift-and-set-timeshift">start timeshift and set timeshift&lt;/h2>
+&lt;ul>
+&lt;li>查看磁盤分區是否是 Btrfs 格式&lt;/li>
+&lt;li>選擇快照類型爲 Btrfs&lt;/li>
+&lt;li>選擇快照位置爲 home 或者 root&lt;/li>
+&lt;li>選擇快照計劃，看個人習慣&lt;/li>
+&lt;li>可以在備份中包含 home 分區&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>啓動 timeshift 按照提示就可以了&lt;br>
+2.tty 環境&lt;/li>
+&lt;li>sudo timeshift &amp;ndash;list&lt;/li>
+&lt;li>sudo timeshift &amp;ndash;restore &amp;ndash;snapshot &amp;lsquo;XXXX-XX-XX_XX-XX-XX&amp;rsquo; &amp;ndash;skip-grub&lt;br>
+3.live 環境&lt;/li>
+&lt;li>timeshift &amp;ndash;restore &amp;ndash;snapshot-device /dev/sdbx&lt;/li>
+&lt;/ul></description></item><item><title>Octavi OS for Xiaomi Mix 2</title><link>https://foxlesbiao.github.io/p/octavios-chiron/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/octavios-chiron/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/octavios-chiron/About.png" alt="Featured image of post Octavi OS for Xiaomi Mix 2" />&lt;h1 id="heading">&lt;/h1>
 &lt;p>OctaviOS is an AOSP based rom focusing on Unique and Smooth UI with handy features. OctaviOS is a reborn of pie based PearlOS.&lt;/p>
 &lt;ul>
 &lt;li>Your warranty is now void.&lt;/li>
