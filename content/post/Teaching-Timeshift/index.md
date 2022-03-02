@@ -2,7 +2,7 @@
 title: Teaching Timeshift
 description: Timeshift
 date: 2022-03-02
-slug: OctaviOS-chiron
+slug: Teaching-Timeshift
 image: j3r6pw.jpg
 categories:
     - Linux
