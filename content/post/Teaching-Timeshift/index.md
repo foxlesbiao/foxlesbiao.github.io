@@ -17,6 +17,7 @@ lastmod: '2022-03-02'
 
 ## start timeshift and set timeshift
 - 查看磁盤分區是否是 Btrfs 格式  
+- ![Photo by foxlesbiao](2022-03-03_18-47.png)
 - 選擇快照類型爲 Btrfs  
 - ![Photo by foxlesbiao](2022-03-03_18-38.png)  
 - 選擇快照位置爲 root  
