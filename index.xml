@@ -5,6 +5,15 @@
 &lt;h2 id="start-timeshift-and-set-timeshift">start timeshift and set timeshift&lt;/h2>
 &lt;ul>
 &lt;li>查看磁盤分區是否是 Btrfs 格式&lt;/li>
+&lt;li>&lt;figure
+>
+&lt;a href="https://foxlesbiao.github.io/2022-03-03_18-47.png" >
+&lt;img src="https://foxlesbiao.github.io/2022-03-03_18-47.png"
+loading="lazy"
+alt="Photo by foxlesbiao">
+&lt;/a>
+&lt;figcaption>Photo by foxlesbiao&lt;/figcaption>
+&lt;/figure>&lt;/li>
 &lt;li>選擇快照類型爲 Btrfs&lt;/li>
 &lt;li>&lt;figure
 class="gallery-image"
