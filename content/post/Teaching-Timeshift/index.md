@@ -16,11 +16,15 @@ lastmod: '2022-03-02'
 > paru -Sy timeshift
 
 ## start timeshift and set timeshift
-- 查看磁盤分區是否是 Btrfs 格式
-- 選擇快照類型爲 Btrfs
-- 選擇快照位置爲 home 或者 root 
-- 選擇快照計劃，看個人習慣
-- 可以在備份中包含 home 分區
+- 查看磁盤分區是否是 Btrfs 格式  
+- 選擇快照類型爲 Btrfs  
+- ![Photo by foxlesbiao](2022-03-03_18-38.png)  
+- 選擇快照位置爲 root  
+- ![Photo by foxlesbiao](2022-03-03_18-38_1.png)  
+- 選擇快照計劃，看個人習慣  
+- ![Photo by foxlesbiao](2022-03-03_18-39.png)  
+- 可以在備份中包含 home 分區  
+- ![Photo by foxlesbiao](2022-03-03_18-39_1.png)  
 -
 ## restore backup 
 1.桌面環境
