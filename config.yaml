@@ -2,7 +2,7 @@ baseurl: https://foxlesbiao.github.io/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: lesfoxbiao
+title: foxlesbiao
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
