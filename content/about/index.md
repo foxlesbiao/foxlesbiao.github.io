@@ -16,6 +16,8 @@ menu:
 ---
 # who am I?
 
+A nine-tailed fox who loves vehicles and modified vehicles  
+
 # Contact information
 [email](mailto:addresseui@gmail.com)  
 [Github](https://github.com/foxlesbiao)  
