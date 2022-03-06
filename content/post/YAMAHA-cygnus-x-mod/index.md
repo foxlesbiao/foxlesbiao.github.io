@@ -1,5 +1,5 @@
 ---
-title: YAMAHA Cygnus 四改裝過程
+title: YAMAHA CygnusX 改裝過程
 description: modify
 date: 2022-03-03
 slug: YAMAHA-cygnus-x-mod
