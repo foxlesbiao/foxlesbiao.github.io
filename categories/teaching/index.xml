@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Teaching on foxlesbiao</title><link>https://foxlesbiao.github.io/categories/teaching/</link><description>Recent content in Teaching on foxlesbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 02 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/categories/teaching/index.xml" rel="self" type="application/rss+xml"/><item><title>Teaching Timeshift</title><link>https://foxlesbiao.github.io/p/teaching-timeshift/</link><pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/teaching-timeshift/</guid><description>install timeshift paru -Sy timeshift
-start timeshift and set timeshift 查看磁盤分區是否是 Btrfs 格式 Photo by foxlesbiao 選擇快照類型爲 Btrfs Photo by foxlesbiao 選擇快照位置爲 root Photo by foxlesbiao 選擇快照計劃，看個人習慣 Photo by foxlesbiao 可以在備份中包含 home 分區 Photo by foxlesbiao 啓動 timeshift 按照提示就可以了
-2.tty 環境 sudo timeshift &amp;ndash;list sudo timeshift &amp;ndash;restore &amp;ndash;snapshot &amp;lsquo;XXXX-XX-XX_XX-XX-XX&amp;rsquo; &amp;ndash;skip-grub
-3.live 環境 timeshift &amp;ndash;restore &amp;ndash;snapshot-device /dev/sdbx</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Teaching on foxlesbiao</title><link>https://foxlesbiao.github.io/categories/teaching/</link><description>Recent content in Teaching on foxlesbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 02 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/categories/teaching/index.xml" rel="self" type="application/rss+xml"/><item><title>Teaching Timeshift</title><link>https://foxlesbiao.github.io/p/teaching-timeshift/</link><pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/teaching-timeshift/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/teaching-timeshift/j3r6pw.jpg" alt="Featured image of post Teaching Timeshift" />&lt;h1 id="install-timeshift">install timeshift&lt;/h1>
+&lt;blockquote>
+&lt;p>paru -Sy timeshift&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="start-timeshift-and-set-timeshift">start timeshift and set timeshift&lt;/h2>
+&lt;ul>
+&lt;li>查看磁盤分區是否是 Btrfs 格式&lt;/li>
+&lt;li>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 517;
+flex-basis: 1242px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-47.png" data-size="823x159">
+&lt;img src="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-47.png"
+width="823"
+height="159"
+srcset="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-47_hu3ef773a1bd3ce93b04c17193cc474a80_27578_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-47_hu3ef773a1bd3ce93b04c17193cc474a80_27578_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by foxlesbiao">
+&lt;/a>
+&lt;figcaption>Photo by foxlesbiao&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;li>選擇快照類型爲 Btrfs&lt;/li>
+&lt;li>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 94;
+flex-basis: 227px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-38.png" data-size="603x635">
+&lt;img src="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-38.png"
+width="603"
+height="635"
+srcset="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-38_huc1868da596f4c00f6179a27313fa5e4b_117244_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-38_huc1868da596f4c00f6179a27313fa5e4b_117244_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by foxlesbiao">
+&lt;/a>
+&lt;figcaption>Photo by foxlesbiao&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;li>選擇快照位置爲 root&lt;/li>
+&lt;li>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 94;
+flex-basis: 226px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-38_1.png" data-size="599x634">
+&lt;img src="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-38_1.png"
+width="599"
+height="634"
+srcset="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-38_1_huc637bfbf86aeccc3a3763cce44e79b6d_58170_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-38_1_huc637bfbf86aeccc3a3763cce44e79b6d_58170_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by foxlesbiao">
+&lt;/a>
+&lt;figcaption>Photo by foxlesbiao&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;li>選擇快照計劃，看個人習慣&lt;/li>
+&lt;li>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 94;
+flex-basis: 227px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-39.png" data-size="601x633">
+&lt;img src="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-39.png"
+width="601"
+height="633"
+srcset="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-39_hud3018658bf1d11166f4267989a1d4f84_66305_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-39_hud3018658bf1d11166f4267989a1d4f84_66305_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by foxlesbiao">
+&lt;/a>
+&lt;figcaption>Photo by foxlesbiao&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;li>可以在備份中包含 home 分區&lt;/li>
+&lt;li>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 95;
+flex-basis: 228px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-39_1.png" data-size="601x630">
+&lt;img src="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-39_1.png"
+width="601"
+height="630"
+srcset="https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-39_1_hu8142c71e0a51b010c077565acda49f37_27628_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/teaching-timeshift/2022-03-03_18-39_1_hu8142c71e0a51b010c077565acda49f37_27628_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by foxlesbiao">
+&lt;/a>
+&lt;figcaption>Photo by foxlesbiao&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>啓動 timeshift 按照提示就可以了&lt;br>
+2.tty 環境&lt;/li>
+&lt;li>sudo timeshift &amp;ndash;list&lt;/li>
+&lt;li>sudo timeshift &amp;ndash;restore &amp;ndash;snapshot &amp;lsquo;XXXX-XX-XX_XX-XX-XX&amp;rsquo; &amp;ndash;skip-grub&lt;br>
+3.live 環境&lt;/li>
+&lt;li>timeshift &amp;ndash;restore &amp;ndash;snapshot-device /dev/sdbx&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,8 +1,284 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AOSP on foxlesbiao</title><link>https://foxlesbiao.github.io/categories/aosp/</link><description>Recent content in AOSP on foxlesbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/categories/aosp/index.xml" rel="self" type="application/rss+xml"/><item><title>Octavi OS for Xiaomi Mix 2</title><link>https://foxlesbiao.github.io/p/octavios-chiron/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/octavios-chiron/</guid><description>OctaviOS is an AOSP based rom focusing on Unique and Smooth UI with handy features. OctaviOS is a reborn of pie based PearlOS.
-Your warranty is now void. We are not responsible for anything that may happen to your phone by installing any custom ROMs and/or kernels. You do it at your own risk and take the responsibility upon yourself and you are not to blame us or XDA and its respected developers.</description></item><item><title>PixelOS for Xiaomi Mi 6</title><link>https://foxlesbiao.github.io/p/pixelos-sagit/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/pixelos-sagit/</guid><description>PixelOS PixelOS is an AOSP based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, themed icons, google sans fonts, Monet color based system wide theming, boot animation), a fork of OG Pixel Experience with improvements on the top of it. Huge respect to Pixel Experience team for their work, thanks to them for making this ROM possible.
-In short a fully functional Pixel Experience with just the right amount of essentials.</description></item><item><title>Octavi OS for Xiaomi Mi 6</title><link>https://foxlesbiao.github.io/p/octavios-sagit/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/octavios-sagit/</guid><description>OctaviOS is an AOSP based rom focusing on Unique and Smooth UI with handy features. OctaviOS is a reborn of pie based PearlOS.
-Your warranty is now void. We are not responsible for anything that may happen to your phone by installing any custom ROMs and/or kernels. You do it at your own risk and take the responsibility upon yourself and you are not to blame us or XDA and its respected developers.</description></item><item><title>PROJECT ELIXIR for Xiaomi Mi 6</title><link>https://foxlesbiao.github.io/p/android12-sagit/</link><pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/android12-sagit/</guid><description>更新状态: 维护中
-update status: maintain
-构建: Unofficial
-Construct: Unofficial
-Project Elixir Project Elixir is another aftermarket AOSP ROM which basically offers minimal UI enhancement &amp;amp; close to Stock Android ROM with great performance, security and stability. Most of the OEMs' these days will provide slow and untimely updates, but we don&amp;rsquo;t do that here. We closely follow Google to bring the latest updates to our users, and even prolong support for devices that have been declared obsolete by OEMs.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AOSP on foxlesbiao</title><link>https://foxlesbiao.github.io/categories/aosp/</link><description>Recent content in AOSP on foxlesbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/categories/aosp/index.xml" rel="self" type="application/rss+xml"/><item><title>Octavi OS for Xiaomi Mix 2</title><link>https://foxlesbiao.github.io/p/octavios-chiron/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/octavios-chiron/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/octavios-chiron/About.png" alt="Featured image of post Octavi OS for Xiaomi Mix 2" />&lt;h1 id="heading">&lt;/h1>
+&lt;p>OctaviOS is an AOSP based rom focusing on Unique and Smooth UI with handy features. OctaviOS is a reborn of pie based PearlOS.&lt;/p>
+&lt;ul>
+&lt;li>Your warranty is now void.&lt;/li>
+&lt;li>We are not responsible for anything that may happen to your phone by installing any custom ROMs and/or kernels.&lt;/li>
+&lt;li>You do it at your own risk and take the responsibility upon yourself and you are not to blame us or XDA and its respected developers.&lt;/li>
+&lt;/ul>
+&lt;h1 id="clean-flash">CLEAN FLASH&lt;/h1>
+&lt;p>-Reboot to recovery
+-Take Backup (Not Necessary)
+-Flash your firmware(If required)
+-Reboot To Recovery
+-Wipe System, Vendor, Cache, Dalvik Cache and Data
+-Flash the ROM
+-Flash Gapps
+-Flash magisk (optional)
+-Reboot&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/foxlesbiao/foxlesbiao.github.io/releases/tag/v3.4-test" target="_blank" rel="noopener"
+>Download&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>-Lineage OS&lt;br>
+-AOSP&lt;br>
+-Superior OS&lt;br>
+-Pixel Experience&lt;br>
+-Extended UI&lt;br>
+-Havoc OS&lt;br>
+-CrDroid ROM&lt;br>
+-Fluid OS&lt;br>
+-Others, I forgot to mention&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/Octavi-OS" target="_blank" rel="noopener"
+>OctaviOS Source&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://t.me/OctaviOS_Chat" target="_blank" rel="noopener"
+>Telegram Group&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;h1 id="reporting-bugs">REPORTING BUGS&lt;/h1>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="http://telegra.ph/Logcats-are-important-03-01" target="_blank" rel="noopener"
+>As soon as the problem occurs, take a logcat!&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>OctaviOS for Device_Name&lt;br>
+Device: chiron&lt;br>
+Maintainer: foxlesbiao&lt;br>
+Build Type: Unofficial&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/ppooopppooo/kernel_xiaomi_msm8998" target="_blank" rel="noopener"
+>Kernel Source&lt;/a>&lt;/p>
+&lt;p>ROM OS Version: 12.0&lt;br>
+ROM Kernel: Linux 4.4&lt;br>
+ROM Firmware Required: Must be on Latest Firmware
+Based On: AOSP&lt;/p>
+&lt;p>Version Information&lt;br>
+Status: Testing&lt;br>
+SELinux Status: Permissive&lt;br>
+Release Date: 2022-03-01&lt;/p>
+&lt;p>&lt;figure
+>
+&lt;a href="https://foxlesbiao.github.io/Screenshot_20220204-145705.png" >
+&lt;img src="https://foxlesbiao.github.io/Screenshot_20220204-145705.png"
+loading="lazy"
+alt="Photo by foxlesbiao">
+&lt;/a>
+&lt;figcaption>Photo by foxlesbiao&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>PixelOS for Xiaomi Mi 6</title><link>https://foxlesbiao.github.io/p/pixelos-sagit/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/pixelos-sagit/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/pixelos-sagit/latest.png" alt="Featured image of post PixelOS for Xiaomi Mi 6" />&lt;h1 id="pixelos">PixelOS&lt;/h1>
+&lt;p>PixelOS is an AOSP based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, themed icons, google sans fonts, Monet color based system wide theming, boot animation), a fork of OG Pixel Experience with improvements on the top of it. Huge respect to Pixel Experience team for their work, thanks to them for making this ROM possible.&lt;br>
+In short a fully functional Pixel Experience with just the right amount of essentials.&lt;/p>
+&lt;p>Your warranty is now void.&lt;/p>
+&lt;ul>
+&lt;li>I am not responsible for bricked devices, dead SD cards,&lt;/li>
+&lt;li>thermonuclear war, or you getting fired because the alarm app failed. Please&lt;/li>
+&lt;li>do some research if you have any concerns about features included in this ROM&lt;/li>
+&lt;li>before flashing it! YOU are choosing to make these modifications, and if&lt;/li>
+&lt;li>you point the finger at me for messing up your device, I will laugh at you.&lt;/li>
+&lt;/ul>
+&lt;h1 id="improvements-over-pixelexperience">Improvements over PixelExperience&lt;/h1>
+&lt;p>Performance improvements from ProtonAOSP&lt;br>
+3-finger swipe to capture screenshots
+Double tap to sleep on lockscreen and status bar&lt;br>
+Added Screen Recording Customizations&lt;br>
+Added Advanced Reboot&lt;br>
+Allow disabling Screenshot Sounds&lt;br>
+Added Bluetooth headset battery indicator&lt;br>
+Added in-call vibration options&lt;br>
+First class implementation of &lt;a class="link" href="https://t.me/repainter_support/5432" target="_blank" rel="noopener"
+>URL&lt;/a> Repainter app&lt;br>
+Added Adaptive playback&lt;br>
+Added themed icons for a lot of third party icons in stock Pixel launcher&lt;br>
+Added monet to Settings app icon color&lt;br>
+Added monet in power menu&lt;br>
+Exposed legacy WiFi and Cellular data QS tiles&lt;br>
+Added an option to disable unlock ripple animation&lt;br>
+Added bluetooth battery level indicator on status bar&lt;br>
+Added NFC tile in QS for supported devices&lt;br>
+Added double tap/long press power button to toggle torch&lt;br>
+Reduced log spam verbosity&lt;br>
+A lot of under the hood UI fixes and improvements&lt;/p>
+&lt;h1 id="device-specific-issues">Device Specific Issues:&lt;/h1>
+&lt;h1 id="requirements">Requirements&lt;/h1>
+&lt;h1 id="downloads">Downloads&lt;/h1>
+&lt;p>&lt;a class="link" href="https://github.com/foxlesbiao/foxlesbiao.github.io/releases/tag/v3.4-test" target="_blank" rel="noopener"
+>Download&lt;/a>&lt;br>
+&lt;a class="link" href="https://xiaomifirmwareupdater.com/firmware/sagit/" target="_blank" rel="noopener"
+>Firmware&lt;/a>&lt;br>
+&lt;a class="link" href="https://github.com/topjohnwu/Magisk/releases" target="_blank" rel="noopener"
+>Magisk (optional) &lt;/a>&lt;br>
+&lt;a class="link" href="https://github.com/PixelOS-Devices/builds/releases/download/2021-10-28/Disable_Dm-Verity_ForceEncrypt_20201008.zip" target="_blank" rel="noopener"
+>DFE (optional) (not recommended) &lt;/a>&lt;/p>
+&lt;h1 id="recovery">Recovery&lt;/h1>
+&lt;p>PixelOS Recovery &lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit/releases" target="_blank" rel="noopener"
+>https://github.com/foxlesbiao/SHRP-device-sagit/releases&lt;/a>&lt;/p>
+&lt;p>Note: GApps are included, don&amp;rsquo;t flash separately.&lt;/p>
+&lt;p>Notes&lt;br>
+• Encryption is enabled by default&lt;br>
+• SELinux is enforcing/permissive&lt;br>
+• (?) Support related to MIUI/ANX Camera&lt;br>
+• (?) QuicksilveR v2.5 Kernel Included&lt;/p>
+&lt;p>PixelOS Recovery is recommended if you want to stay encrypted, no custom recovery supports encryption on Android12, i.e. you won&amp;rsquo;t be able to decrypt your data.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>Flashing Instructions&lt;br>
+Clean flash (coming from a different ROM):&lt;br>
+• Download ROM from the link above&lt;br>
+• Download Magisk v23.0 or newer (optionally)&lt;br>
+• Reboot to recovery&lt;br>
+• Format data (if encrypted)&lt;br>
+• Wipe system, vendor, cache, dalvik, data&lt;br>
+• Flash latest android 11 global stable firmware (link above)&lt;br>
+• Flash ROM zip&lt;br>
+• Reboot and voila!&lt;br>
+• To get root access, reboot to recovery after ROM setup and flash magisk.&lt;/p>
+&lt;p>Updating to a newer build (dirty flash):&lt;br>
+• Flash ROM zip and magisk (optional)&lt;br>
+• Wipe system, vendor, cache, dalvik&lt;br>
+• Reboot and voila!&lt;/p>
+&lt;p>Source Code&lt;br>
+PixelOS &lt;a class="link" href="http://github.com/PixelOS-Pixelish" target="_blank" rel="noopener"
+>http://github.com/PixelOS-Pixelish&lt;/a>&lt;br>
+Device Tree and Vendor Tree &lt;a class="link" href="https://github.com/Huexxx" target="_blank" rel="noopener"
+>https://github.com/Huexxx&lt;/a>&lt;br>
+Kernel Tree &lt;a class="link" href="https://github.com/Huexxx/kernel_xiaomi_msm8998" target="_blank" rel="noopener"
+>https://github.com/Huexxx/kernel_xiaomi_msm8998&lt;/a>&lt;/p>
+&lt;p>ROM OS Version: Android 12.0&lt;br>
+ROM Kernel: Linux 4.14.x&lt;br>
+Latest Release Date: 2022-03-01&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 56;
+flex-basis: 135px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/pixelos-sagit/Screenshot_20220228-235758_Settings.png" data-size="1080x1920">
+&lt;img src="https://foxlesbiao.github.io/p/pixelos-sagit/Screenshot_20220228-235758_Settings.png"
+width="1080"
+height="1920"
+srcset="https://foxlesbiao.github.io/p/pixelos-sagit/Screenshot_20220228-235758_Settings_hu0bdd0ac677af3470f4ab1315cd48fd99_141143_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/pixelos-sagit/Screenshot_20220228-235758_Settings_hu0bdd0ac677af3470f4ab1315cd48fd99_141143_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by Settings">
+&lt;/a>
+&lt;figcaption>Photo by Settings&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>Octavi OS for Xiaomi Mi 6</title><link>https://foxlesbiao.github.io/p/octavios-sagit/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/octavios-sagit/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/octavios-sagit/About.png" alt="Featured image of post Octavi OS for Xiaomi Mi 6" />&lt;h1 id="heading">&lt;/h1>
+&lt;p>OctaviOS is an AOSP based rom focusing on Unique and Smooth UI with handy features. OctaviOS is a reborn of pie based PearlOS.&lt;/p>
+&lt;ul>
+&lt;li>Your warranty is now void.&lt;/li>
+&lt;li>We are not responsible for anything that may happen to your phone by installing any custom ROMs and/or kernels.&lt;/li>
+&lt;li>You do it at your own risk and take the responsibility upon yourself and you are not to blame us or XDA and its respected developers.&lt;/li>
+&lt;/ul>
+&lt;h1 id="clean-flash">CLEAN FLASH&lt;/h1>
+&lt;p>-Reboot to recovery
+-Take Backup (Not Necessary)
+-Flash your firmware(If required)
+-Reboot To Recovery
+-Wipe System, Vendor, Cache, Dalvik Cache and Data
+-Flash the ROM
+-Flash Gapps
+-Flash magisk (optional)
+-Reboot&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/foxlesbiao/foxlesbiao.github.io/releases/tag/v3.4" target="_blank" rel="noopener"
+>Download&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>-Lineage OS&lt;br>
+-AOSP&lt;br>
+-Superior OS&lt;br>
+-Pixel Experience&lt;br>
+-Extended UI&lt;br>
+-Havoc OS&lt;br>
+-CrDroid ROM&lt;br>
+-Fluid OS&lt;br>
+-Others, I forgot to mention&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/Octavi-OS" target="_blank" rel="noopener"
+>OctaviOS Source&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://t.me/OctaviOS_Chat" target="_blank" rel="noopener"
+>Telegram Group&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;h1 id="reporting-bugs">REPORTING BUGS&lt;/h1>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="http://telegra.ph/Logcats-are-important-03-01" target="_blank" rel="noopener"
+>As soon as the problem occurs, take a logcat!&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>OctaviOS for Device_Name&lt;br>
+Device: sagit&lt;br>
+Maintainer: foxlesbiao&lt;br>
+Build Type: Unofficial&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/ppooopppooo/kernel_xiaomi_msm8998" target="_blank" rel="noopener"
+>Kernel Source&lt;/a>&lt;/p>
+&lt;p>ROM OS Version: 12.0&lt;br>
+ROM Kernel: Linux 4.4&lt;br>
+ROM Firmware Required: Must be on Latest Firmware
+Based On: AOSP&lt;/p>
+&lt;p>Version Information&lt;br>
+Status: Testing&lt;br>
+SELinux Status: Permissive&lt;br>
+Release Date: 2022-02-24&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 56;
+flex-basis: 135px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/octavios-sagit/Screenshot_20220204-145705.png" data-size="1080x1920">
+&lt;img src="https://foxlesbiao.github.io/p/octavios-sagit/Screenshot_20220204-145705.png"
+width="1080"
+height="1920"
+srcset="https://foxlesbiao.github.io/p/octavios-sagit/Screenshot_20220204-145705_hu870db3b68adcdaac4d21e0327cdcf57c_131395_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/octavios-sagit/Screenshot_20220204-145705_hu870db3b68adcdaac4d21e0327cdcf57c_131395_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by foxlesbiao">
+&lt;/a>
+&lt;figcaption>Photo by foxlesbiao&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>PROJECT ELIXIR for Xiaomi Mi 6</title><link>https://foxlesbiao.github.io/p/android12-sagit/</link><pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/android12-sagit/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/android12-sagit/snHlKrS2.jpg" alt="Featured image of post PROJECT ELIXIR for Xiaomi Mi 6" />&lt;blockquote>
+&lt;p>更新状态: 维护中&lt;br>
+update status: maintain&lt;br>
+构建: Unofficial&lt;br>
+Construct: Unofficial&lt;/p>
+&lt;/blockquote>
+&lt;h1 id="project-elixir">Project Elixir&lt;/h1>
+&lt;p>Project Elixir is another aftermarket AOSP ROM which basically offers minimal UI enhancement &amp;amp; close to Stock Android ROM with great performance, security and stability. Most of the OEMs' these days will provide slow and untimely updates, but we don&amp;rsquo;t do that here. We closely follow Google to bring the latest updates to our users, and even prolong support for devices that have been declared obsolete by OEMs. Our ROMs' source code is open-source, secure, stable, and outstanding. Your experience while using Project Elixir will be butter smooth without compromising the quality of the Android experience. In short, it&amp;rsquo;s perfectly balanced between Great Performance, Security, stability, minimal UI &amp;amp; awesome features including pixel goodies So do not hesitate anymore, join us now and start enjoying the beauty of stock Android. Download and enjoy Project Elixir on your respective devices!&lt;/p>
+&lt;h1 id="download">Download&lt;/h1>
+&lt;p>Please keep in mind that these are Gapps Builds and there is no vanilla build of this rom available.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/foxlesbiao/foxlesbiao.github.io/releases/tag/v1.3-1" target="_blank" rel="noopener"
+>Download&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;h1 id="what-works">What works?&lt;/h1>
+&lt;p>Wifi | RIL | Mobile data | GPS | Camera
+Flashlight | Camcorder | Bluetooth | Fingerprint reader | Lights | Sound | vibration
+Almost everything&lt;/p>
+&lt;h1 id="what-doesnt-work-or-any-bug-">What doesn&amp;rsquo;t work? or Any Bug ?&lt;/h1>
+&lt;p>You tell me&lt;/p>
+&lt;h1 id="sources-and-documentation">Sources and Documentation&lt;/h1>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/Project-Elixir" target="_blank" rel="noopener"
+>ROM Source Code&lt;/a>&lt;/em>&lt;br>
+&lt;em>&lt;a class="link" href="https://github.com/AOSP-12/device_xiaomi_sagit" target="_blank" rel="noopener"
+>sagit&lt;/a>&lt;/em>&lt;br>
+&lt;em>&lt;a class="link" href="https://github.com/AOSP-12/device_xiaomi_msm8998-common" target="_blank" rel="noopener"
+>msm8998-common&lt;/a>&lt;/em>&lt;br>
+&lt;em>&lt;a class="link" href="https://github.com/AOSP-12/vendor_xiaomi" target="_blank" rel="noopener"
+>vendor xiaomi&lt;/a>&lt;/em>&lt;br>
+&lt;em>&lt;a class="link" href="https://github.com/AOSP-12/kernel_xiaomi_msm8998" target="_blank" rel="noopener"
+>kernerl&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;h1 id="update-log">update log&lt;/h1>
+&lt;h2 id="2022122">2022/1/22&lt;/h2>
+&lt;p>1.first build&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 39;
+flex-basis: 94px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/android12-sagit/Screenshot_20220122-201236_Settings.png" data-size="1080x2741">
+&lt;img src="https://foxlesbiao.github.io/p/android12-sagit/Screenshot_20220122-201236_Settings.png"
+width="1080"
+height="2741"
+srcset="https://foxlesbiao.github.io/p/android12-sagit/Screenshot_20220122-201236_Settings_hu0c468fcd9f7582ed349a79d0693f157a_177614_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/android12-sagit/Screenshot_20220122-201236_Settings_hu0c468fcd9f7582ed349a79d0693f157a_177614_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by Settings">
+&lt;/a>
+&lt;figcaption>Photo by Settings&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item></channel></rss>

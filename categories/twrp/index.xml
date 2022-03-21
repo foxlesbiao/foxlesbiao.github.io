@@ -1,20 +1,434 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TWRP on foxlesbiao</title><link>https://foxlesbiao.github.io/categories/twrp/</link><description>Recent content in TWRP on foxlesbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/categories/twrp/index.xml" rel="self" type="application/rss+xml"/><item><title>How to compile TWRP</title><link>https://foxlesbiao.github.io/p/builder-twrp/</link><pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/builder-twrp/</guid><description>Existing device tree compiled 这里适合已经有 device tree github 仓库的
-This is suitable for existing device tree github warehouses
-1:create folder,Copy TWRP/OFRP/SHRP repository mkdir TWRP/OFRP/SHRP &amp;amp;&amp;amp; cd TWRP/OFRP/SHRP
-TeamWin Recovery Project: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git
-OrangeFox Recovery Project: https://gitlab.com/OrangeFox/Manifest.git
-SKYHAWK Recovery Project: https://github.com/SHRP/platform_manifest_twrp_omni.git
-1.1: sync TWRP：repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
-OFRP：repo init -u https://gitlab.com/OrangeFox/Manifest.git -b fox_9.0
-SHRP：repo init -u git://github.com/SHRP/manifest.git -b v3_11.0/v3_10.0/v3_9.0
-SHRP 按照分支拉取，更改后面的 v3_11.0 就可以. 官方参考
-TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc &amp;ndash;all) &amp;ndash;force-sync &amp;ndash;no-clone-bundle &amp;ndash;no-tags</description></item><item><title>OrangeFox</title><link>https://foxlesbiao.github.io/p/orangefox/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/orangefox/</guid><description>正文 这是一个适用于小米6 TWRP
-This is a TWRP for Mi 6
-支持 android 12 Data 解密
-Support android 12 Data decryption
-Android 12 FBE 无法工作
-Android 12 FBE does not work
-引用 sagit - device
-My modify sagit - device
-download link
-图片 Photo by OrangeFox-Recovery Photo by OrangeFox-Recovery Photo by OrangeFox-Recovery Photo by OrangeFox-Recovery Photo by OrangeFox-Recovery</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TWRP on foxlesbiao</title><link>https://foxlesbiao.github.io/categories/twrp/</link><description>Recent content in TWRP on foxlesbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/categories/twrp/index.xml" rel="self" type="application/rss+xml"/><item><title>How to compile TWRP</title><link>https://foxlesbiao.github.io/p/builder-twrp/</link><pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/builder-twrp/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/logo.jpg" alt="Featured image of post How to compile TWRP" />&lt;h1 id="existing-device-tree-compiled">Existing device tree compiled&lt;/h1>
+&lt;p>这里适合已经有 device tree github 仓库的&lt;br>
+This is suitable for existing device tree github warehouses&lt;/p>
+&lt;h2 id="1create-foldercopy-twrpofrpshrp-repository">1:create folder,Copy TWRP/OFRP/SHRP repository&lt;/h2>
+&lt;p>mkdir TWRP/OFRP/SHRP &amp;amp;&amp;amp; cd TWRP/OFRP/SHRP&lt;br>
+TeamWin Recovery Project: &lt;a class="link" href="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git" target="_blank" rel="noopener"
+>https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git&lt;/a>&lt;br>
+OrangeFox Recovery Project: &lt;a class="link" href="https://gitlab.com/OrangeFox/Manifest.git" target="_blank" rel="noopener"
+>https://gitlab.com/OrangeFox/Manifest.git&lt;/a>&lt;br>
+SKYHAWK Recovery Project: &lt;a class="link" href="https://github.com/SHRP/platform_manifest_twrp_omni.git" target="_blank" rel="noopener"
+>https://github.com/SHRP/platform_manifest_twrp_omni.git&lt;/a>&lt;/p>
+&lt;h3 id="11-sync">1.1: sync&lt;/h3>
+&lt;p>TWRP：repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0&lt;br>
+OFRP：repo init -u &lt;a class="link" href="https://gitlab.com/OrangeFox/Manifest.git" target="_blank" rel="noopener"
+>https://gitlab.com/OrangeFox/Manifest.git&lt;/a> -b fox_9.0&lt;br>
+SHRP：repo init -u git://github.com/SHRP/manifest.git -b v3_11.0/v3_10.0/v3_9.0&lt;br>
+SHRP 按照分支拉取，更改后面的 v3_11.0 就可以. &lt;em>&lt;a class="link" href="https://shrp.github.io/#/guide" target="_blank" rel="noopener"
+>官方参考&lt;/a>&lt;/em>&lt;br>
+TWRP/OFRP/SHRP：repo sync or repo sync -c -j$(nproc &amp;ndash;all) &amp;ndash;force-sync &amp;ndash;no-clone-bundle &amp;ndash;no-tags&lt;/p>
+&lt;h2 id="2-copy-device-tree-repository">2: copy device tree repository&lt;/h2>
+&lt;ul>
+&lt;li>cd source-dir&lt;/li>
+&lt;li>git clone &lt;a class="link" href="mailto:git@github.com" >git@github.com&lt;/a>:foxlesbiao/SHRP-device-sagit.git device/xiaomi/sagit&lt;br>
+注意这个是我的设备，这个仓库不适用你的手机&lt;/li>
+&lt;/ul>
+&lt;h3 id="21-builder-twrpofrpshrp">2.1: builder TWRP/OFRP/SHRP&lt;/h3>
+&lt;ul>
+&lt;li>cd source-dir&lt;/li>
+&lt;li>. build/envsetup.sh or source build/envsetup.sh&lt;/li>
+&lt;li>make clean &amp;amp;&amp;amp; lunch omni_&lt;!-- raw HTML omitted -->-eng &amp;amp;&amp;amp; mka recoveryimage&lt;/li>
+&lt;/ul>
+&lt;h3 id="22-shrp-dtguide">2.2: SHRP dtGuide&lt;/h3>
+&lt;p>SHRP 需要编写 BoardConfig.mk 才可以正常编译 SHRP&lt;br>
+&lt;em>&lt;a class="link" href="https://shrp.github.io/#/dtGuide" target="_blank" rel="noopener"
+>官方参考&lt;/a>&lt;/em> 也可以参考我的 &lt;em>&lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit/blob/fox_9.0/BoardConfig.mk" target="_blank" rel="noopener"
+>文件&lt;/a>&lt;/em> #SHRP 的部分&lt;br>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 154;
+flex-basis: 371px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/builder-twrp/2022-01-11_23-51.png" data-size="519x335">
+&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/2022-01-11_23-51.png"
+width="519"
+height="335"
+srcset="https://foxlesbiao.github.io/p/builder-twrp/2022-01-11_23-51_huc3cf97261875708a0404676e5e5ee764_35636_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/builder-twrp/2022-01-11_23-51_huc3cf97261875708a0404676e5e5ee764_35636_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="SHRP dtGuide">
+&lt;/a>
+&lt;figcaption>SHRP dtGuide&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3 id="23-ofrp-vendorsetup">2.3: OFRP vendorsetup&lt;/h3>
+&lt;p>和 SHRP 一样，OFRP 也有 var 特性&lt;br>
+在同步 OFRP 仓库之后， vendor/recovery/orangefox_build_vars.txt 就是 OFRP 全部 var 特性&lt;br>
+这个文件需要放在 vendor/omni/ 或者 device/ 文件夹里面&lt;br>
+vendor/omni/ 文件夹是全部设备
+device 文件夹是单独建立防止多设备编译搞混&lt;br>
+这是我的 vendorsetup.sh 文件
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 90;
+flex-basis: 217px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_00-15.png" data-size="631x695">
+&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_00-15.png"
+width="631"
+height="695"
+srcset="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_00-15_hua2c6f7dc0c8aea184c7b8650f1e1212d_125190_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_00-15_hua2c6f7dc0c8aea184c7b8650f1e1212d_125190_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="OFRP vendorsetup">
+&lt;/a>
+&lt;figcaption>OFRP vendorsetup&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h1 id="write-the-device-tree-file">Write the device tree file&lt;/h1>
+&lt;p>这里适合 github 没有 device tree 仓库的&lt;br>
+This is suitable for github without device tree repository&lt;/p>
+&lt;h2 id="1know-your-phone-partition">1:Know your phone partition&lt;/h2>
+&lt;ul>
+&lt;li>独立 recovery 分区 A only 分区&lt;/li>
+&lt;li>集成recovery 分区集成在 boot 分区 A/B 分区 V-AB 分区&lt;/li>
+&lt;li>查看是否动态分区&lt;/li>
+&lt;/ul>
+&lt;h3 id="11download-the-official-rom-and-extract-the-img-file">1.1:Download the official rom and extract the img file&lt;/h3>
+&lt;ul>
+&lt;li>独立 recovery 分区，提取 recovery.img&lt;/li>
+&lt;li>集成 recovery 分区，提取 boot.img&lt;/li>
+&lt;li>解包 recovery.img 和 boot.img 文件&lt;/li>
+&lt;/ul>
+&lt;h3 id="12device-tree-file-structure">1.2:Device tree file structure&lt;/h3>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit" target="_blank" rel="noopener"
+>可以查看我仓库里的device tree文件结构&lt;/a>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>prebuilt 文件夹是我们提取出来的预编译内核&lt;br>
+image.gz 是内核本体 大概原名字是 xxxx-kernel&lt;br>
+dtb.img 有一些手机会有这个文件 大概原名字是 xxxx-dtb&lt;br>
+dtbo.img 如果有的话，也需要这个文件 大概原名字是 xxxx-dtbo&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>root 文件夹&lt;br>
+提取在 RamDisk 目录下的全部 .rc 文件&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>mk 文件夹是手机型号各种参数&lt;br>
+Android.mk 说明你的机型代号&lt;br>
+AndroidProduct.mk 告知 TWRP/OFRP/SHRP 源代码说明你机型代号的名字&lt;br>
+BoardConfig.mk 配置文件&lt;br>
+device.mk 这个是写 A/B 分区配置文件&lt;br>
+recovery.fstab 声明每个分区挂载位置，提取自 RamDisk 文件&lt;/p>
+&lt;h3 id="13write-the-device-tree-file">1.3:Write the device tree file&lt;/h3>
+&lt;p>注意: root/recovery 文件目录也可以是这样 recovery/root&lt;br>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 121;
+flex-basis: 290px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-14.png" data-size="746x616">
+&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-14.png"
+width="746"
+height="616"
+srcset="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-14_huc88a1d38d7e42ae49b698c3f3ee0e7e1_36580_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-14_huc88a1d38d7e42ae49b698c3f3ee0e7e1_36580_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="device tree file directory">
+&lt;/a>
+&lt;figcaption>device tree file directory&lt;/figcaption>
+&lt;/figure>
+文件命名可以参考我的&lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit" target="_blank" rel="noopener"
+>命名&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>提取文件到 device tree&lt;/p>
+&lt;ul>
+&lt;li>ramdisk/etc/recovery.fstab ,把这个文件放在 device tree 根目录&lt;br>
+如果没有这个文件可以在 system/etc or vendor/etc 里面的 fstab 文件，重命名为 recovery.fstab 放在 device tree 根目录&lt;/li>
+&lt;li>把 ramdisk 文件夹下的 .rc 文件提取到 root/recovery or recovery/root&lt;/li>
+&lt;li>把 split-img 文件夹下的 xxxx-dtbo and xxxx-dtb and xxxx-kernel&lt;br>
+分别重命名为 dtbo.img and dtb.img and image.gz&lt;br>
+放在 device tree 根目录的 prebuilt 目录下&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="14write-mk-file">1.4:write mk file&lt;/h3>
+&lt;p>这个是按照我的文件编写的&lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit" target="_blank" rel="noopener"
+>查看&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Android.mk 将红线部分改为你的机型代号&lt;br>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 107;
+flex-basis: 257px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-38.png" data-size="677x630">
+&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-38.png"
+width="677"
+height="630"
+srcset="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-38_hu8bea6a9083f93ecf23d5368867cace8d_97238_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-38_hu8bea6a9083f93ecf23d5368867cace8d_97238_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Android.mk">
+&lt;/a>
+&lt;figcaption>Android.mk&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;li>AndroidProducts.mk 将红线部分改为你自己所命名的文件&lt;br>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 161;
+flex-basis: 387px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-41.png" data-size="611x378">
+&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-41.png"
+width="611"
+height="378"
+srcset="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-41_hu4963573f961dcdf366106e078017e73b_55420_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-41_hu4963573f961dcdf366106e078017e73b_55420_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="AndroidProducts.mk">
+&lt;/a>
+&lt;figcaption>AndroidProducts.mk&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;li>BoardConfig.mk
+LOCAL_PATH := device/xiaomi/sagit &amp;gt; LOCAL_PATH := device/品牌英文名称/机型代号&lt;br>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 129;
+flex-basis: 310px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-53.png" data-size="357x276">
+&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-53.png"
+width="357"
+height="276"
+srcset="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-53_hub6e32002f30de961106facd83b1d3f11_22609_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_01-53_hub6e32002f30de961106facd83b1d3f11_22609_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="BoardConfig.mk">
+&lt;/a>
+&lt;figcaption>BoardConfig.mk&lt;/figcaption>
+&lt;/figure>
+这个做了通用化处理&lt;br>
+TARGET_OTA_ASSERT_DEVICE := sagit &amp;gt; TARGET_OTA_ASSERT_DEVICE := 机型代号&lt;br>
+在 split-img 文件夹下找到 xxxx-cmdline 文件，打开并复制里面的话&lt;br>
+BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0 earlycon=msm_serial_dm,0xc1b0000 &amp;gt; BOARD_KERNEL_CMDLINE := 你复制的&lt;br>
+声明预编译内核位置 dtb 和 dtbo
+&lt;ul>
+&lt;li>TARGET_PREBUILT_DTB := $(LOCAL_PATH)/prebuilt/dtb.img&lt;/li>
+&lt;li>TARGET_PREBUILT_DTBOIMAGE := $(LOCAL_PATH)/prebuilt/dtbo.img&lt;/li>
+&lt;li>BOARD_INCLUDE_RECOVERY_DTBO := true&lt;br>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 190;
+flex-basis: 458px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-00.png" data-size="842x441">
+&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-00.png"
+width="842"
+height="441"
+srcset="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-00_hu1c04c01a8210207e2ca6cef0c96de901_92376_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-00_hu1c04c01a8210207e2ca6cef0c96de901_92376_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="BoardConfig.mk">
+&lt;/a>
+&lt;figcaption>BoardConfig.mk&lt;/figcaption>
+&lt;/figure>&lt;br>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 852;
+flex-basis: 2045px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-08.png" data-size="392x46">
+&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-08.png"
+width="392"
+height="46"
+srcset="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-08_hu50e9f925d1e4d19092d8193b07abda26_7484_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-08_hu50e9f925d1e4d19092d8193b07abda26_7484_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="BoardConfig.mk">
+&lt;/a>
+&lt;figcaption>BoardConfig.mk&lt;/figcaption>
+&lt;/figure>
+TARGET_KERNEL_CONFIG := sagit-fox_defconfig &amp;gt; TARGET_KERNEL_CONFIG := 机型代号_defconfig&lt;br>
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sagit &amp;gt; TARGET_KERNEL_SOURCE := kernel/品牌英文名称/机型代号&lt;br>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 502;
+flex-basis: 1205px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-10.png" data-size="407x81">
+&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-10.png"
+width="407"
+height="81"
+srcset="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-10_hua510ce909ae8b28a42684f975cd95749_8130_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-10_hua510ce909ae8b28a42684f975cd95749_8130_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="BoardConfig.mk">
+&lt;/a>
+&lt;figcaption>BoardConfig.mk&lt;/figcaption>
+&lt;/figure>
+TARGET_BOARD_PLATFORM := msm8998 &amp;gt; TARGET_BOARD_PLATFORM := 你的soc型号
+动态分区需要了解 super 分区大小，了解 spuer 分区包含那些分区&lt;br>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 462;
+flex-basis: 1109px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-20.png" data-size="504x109">
+&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-20.png"
+width="504"
+height="109"
+srcset="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-20_hu0574f234785601beff9973d9f437412b_17736_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-20_hu0574f234785601beff9973d9f437412b_17736_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="动态分区需要的代码">
+&lt;/a>
+&lt;figcaption>动态分区需要的代码&lt;/figcaption>
+&lt;/figure>&lt;br>
+如果不是动态分区请删除 #System as root 和 # AVB 还有 # fstab 代码段&lt;br>
+没有 AVB 验证 可以删除 # AVB 代码段&lt;br>
+如果有独立 recovery 分区，删除这些&lt;br>
+如果不是请保留&lt;/li>
+&lt;li>BOARD_USES_RECOVERY_AS_BOOT := true&lt;/li>
+&lt;li>TARGET_NO_RECOVERY := true&lt;br>
+这个是 # Bootloader&lt;/li>
+&lt;li>TARGET_BOOTLOADER_BOARD_NAME := msm8998 &amp;gt; TARGET_BOOTLOADER_BOARD_NAME := 机型代号&lt;/li>
+&lt;li>TARGET_NO_BOOTLOADER := true &amp;gt; TARGET_NO_BOOTLOADER := 有 fastboot 就 true，没有就 false&lt;/li>
+&lt;li>TARGET_USES_UEFI := true V-AB 分区需要，如果不是就删除&lt;br>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 585;
+flex-basis: 1404px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-27.png" data-size="398x68">
+&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-27.png"
+width="398"
+height="68"
+srcset="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-27_huad13b32475af804812504964c48f0d7c_9954_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-27_huad13b32475af804812504964c48f0d7c_9954_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="boot分区需要的代码">
+&lt;/a>
+&lt;figcaption>boot分区需要的代码&lt;/figcaption>
+&lt;/figure>&lt;br>
+device.mk 文件，这个文件只用于 V-AB 分区和动态分区，还有 A/B 分区的手机&lt;br>
+请在有 V-AB 分区的手机，device tree 仓库搜索复制到你的文件&lt;br>
+只需要更改这一代码段就可以了
+LOCAL_PATH := device/xxxx/xxxx &amp;gt; LOCAL_PATH := device/品牌英文名称/机型代号&lt;br>
+动态分区和 A/B 分区，我不知道怎么改，&lt;a class="link" href="https://github.com/foxlesbiao/foxlesbiao.github.io/issues" target="_blank" rel="noopener"
+>有参考的可以在这里提交给我，我来更改&lt;/a>。&lt;br>
+omni_机型代号.mk 文件或者是 twrp_机型代号.mk
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 173;
+flex-basis: 417px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-51.png" data-size="709x408">
+&lt;img src="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-51.png"
+width="709"
+height="408"
+srcset="https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-51_huaabcd4050c861b99de37aaebe9a07ce6_50444_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/builder-twrp/2022-01-12_02-51_huaabcd4050c861b99de37aaebe9a07ce6_50444_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="omni_机型代号.mk">
+&lt;/a>
+&lt;figcaption>omni_机型代号.mk&lt;/figcaption>
+&lt;/figure>
+PRODUCT_RELEASE_NAME := 机型代号&lt;br>
+PRODUCT_DEVICE := 机型代号&lt;br>
+PRODUCT_NAME := omni_机型代号 或者 twrp_机型代号&lt;br>
+PRODUCT_BRAND := 厂家英文&lt;br>
+PRODUCT_MODEL := 手机英文&lt;br>
+PRODUCT_MANUFACTURER := 厂家英文&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>完&amp;hellip;&amp;hellip;应该&lt;/p></description></item><item><title>OrangeFox</title><link>https://foxlesbiao.github.io/p/orangefox/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/orangefox/</guid><description>&lt;img src="https://foxlesbiao.github.io/p/orangefox/logo.jpg" alt="Featured image of post OrangeFox" />&lt;h2 id="正文">正文&lt;/h2>
+&lt;p>这是一个适用于小米6 TWRP&lt;/p>
+&lt;p>This is a TWRP for Mi 6&lt;/p>
+&lt;p>支持 android 12 Data 解密&lt;/p>
+&lt;p>Support android 12 Data decryption&lt;/p>
+&lt;p>Android 12 FBE 无法工作&lt;/p>
+&lt;p>Android 12 FBE does not work&lt;/p>
+&lt;h2 id="引用">引用&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://gitlab.com/OrangeFox/device/sagit" target="_blank" rel="noopener"
+>sagit - device&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit" target="_blank" rel="noopener"
+>My modify sagit - device&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/foxlesbiao/SHRP-device-sagit/releases/tag/R11.1-orangefox" target="_blank" rel="noopener"
+>download link&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="图片">图片&lt;/h2>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 56;
+flex-basis: 135px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-01.png" data-size="1080x1920">
+&lt;img src="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-01.png"
+width="1080"
+height="1920"
+srcset="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-01_hu0e843e7eb87b46d2fcf595a2f0df5201_82264_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-01_hu0e843e7eb87b46d2fcf595a2f0df5201_82264_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by OrangeFox-Recovery">
+&lt;/a>
+&lt;figcaption>Photo by OrangeFox-Recovery&lt;/figcaption>
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 56;
+flex-basis: 135px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-04.png" data-size="1080x1920">
+&lt;img src="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-04.png"
+width="1080"
+height="1920"
+srcset="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-04_hu4f09383ccb16d2908d1f05c693c2222f_84532_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-04_hu4f09383ccb16d2908d1f05c693c2222f_84532_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by OrangeFox-Recovery">
+&lt;/a>
+&lt;figcaption>Photo by OrangeFox-Recovery&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 56;
+flex-basis: 135px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-06.png" data-size="1080x1920">
+&lt;img src="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-06.png"
+width="1080"
+height="1920"
+srcset="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-06_hu3cfafc8be8219f27c8e2099be6bcac13_85225_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-06_hu3cfafc8be8219f27c8e2099be6bcac13_85225_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by OrangeFox-Recovery">
+&lt;/a>
+&lt;figcaption>Photo by OrangeFox-Recovery&lt;/figcaption>
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 56;
+flex-basis: 135px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-07.png" data-size="1080x1920">
+&lt;img src="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-07.png"
+width="1080"
+height="1920"
+srcset="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-07_hu97ab80ed61fcb27ccd605daf59e099dc_82626_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-07_hu97ab80ed61fcb27ccd605daf59e099dc_82626_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by OrangeFox-Recovery">
+&lt;/a>
+&lt;figcaption>Photo by OrangeFox-Recovery&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 56;
+flex-basis: 135px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-16.png" data-size="1080x1920">
+&lt;img src="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-16.png"
+width="1080"
+height="1920"
+srcset="https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-16_huf5c218939c3cb74373c7c878e18ef192_267320_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/orangefox/Screenshot_2022-01-06-07-52-16_huf5c218939c3cb74373c7c878e18ef192_267320_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by OrangeFox-Recovery">
+&lt;/a>
+&lt;figcaption>Photo by OrangeFox-Recovery&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item></channel></rss>
