@@ -3,7 +3,7 @@ title: 个人家庭网络规划
 description: Personal home network planning
 date: 2022-05-11
 slug: Personal-home-network-planning
-image: Cygnus-logo.png
+image: 
 categories:
     - Network
     - 网络
