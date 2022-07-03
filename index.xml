@@ -7,17 +7,32 @@
 &lt;thead>
 &lt;tr>
 &lt;th>交换机&lt;/th>
-&lt;th>服务器&lt;/th>
+&lt;th>服务器/NAS&lt;/th>
 &lt;th>软路由&lt;/th>
+&lt;th>WIFI&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
 &lt;td>&lt;/td>
+&lt;td>HD6500&lt;/td>
+&lt;td>R86S N51005&lt;/td>
+&lt;td>U6 Enterprise x8&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>RX6022sas&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
