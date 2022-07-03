@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on foxlesbiao</title><link>https://foxlesbiao.github.io/post/</link><description>Recent content in Posts on foxlesbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 11 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>个人家庭网络规划</title><link>https://foxlesbiao.github.io/p/personal-home-network-planning/</link><pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/personal-home-network-planning/</guid><description>&lt;h1 id="家的面积">家的面积&lt;/h1>
-&lt;p>正在整理数据&lt;/p></description></item><item><title>Arch Linux Uses OneDrive</title><link>https://foxlesbiao.github.io/p/onedrive-linux/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/onedrive-linux/</guid><description>&lt;h1 id="install">install&lt;/h1>
+&lt;p>因为没有找到户型图，就大概大概的说下面积吧。房子是占地 700 平的四层独栋别墅和一个 200 平的院子。&lt;/p>
+&lt;h1 id="需求">需求&lt;/h1>
+&lt;p>我只需要 NAS,游戏缓存,BT/PT下载,万兆内网就可以了。&lt;/p>
+&lt;h1 id="设备">设备&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>交换机&lt;/th>
+&lt;th>服务器&lt;/th>
+&lt;th>软路由&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Arch Linux Uses OneDrive</title><link>https://foxlesbiao.github.io/p/onedrive-linux/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/onedrive-linux/</guid><description>&lt;h1 id="install">install&lt;/h1>
 &lt;blockquote>
 &lt;p>paru -S onedrive-abraunegg&lt;/p>
 &lt;/blockquote>
