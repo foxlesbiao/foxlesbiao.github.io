@@ -10,6 +10,8 @@
 &lt;th>服务器/NAS&lt;/th>
 &lt;th>软路由&lt;/th>
 &lt;th>WIFI&lt;/th>
+&lt;th>监控&lt;/th>
+&lt;th>门禁&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
@@ -18,20 +20,28 @@
 &lt;td>HD6500&lt;/td>
 &lt;td>R86S N51005&lt;/td>
 &lt;td>U6 Enterprise x8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;/td>
 &lt;td>RX6022sas x4&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
