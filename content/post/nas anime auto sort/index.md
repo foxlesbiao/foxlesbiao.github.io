@@ -32,5 +32,8 @@ Plex/jellyfin: host:8096
 
 # jellyfin 安装
 
-在[这里](https://hub.docker.com/r/nyanmisaka/jellyfin)下载 jellyfin Windows 
-解压缩点击 jellyfin.exe 就可以了
+在[这里](https://hub.docker.com/r/nyanmisaka/jellyfin)下载 jellyfin Windows  
+解压缩点击 jellyfin.exe 就可以了  
+## jellyfin 插件推荐
+
+[jellyfin bangumi](https://github.com/kookxiang/jellyfin-plugin-bangumi)
