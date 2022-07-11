@@ -26,9 +26,9 @@ docker-compose up -d
 
 # 浏览器浏览端口
 
-qBittorrent: host:8989
-AutoBangumi: host:7892
-Plex/jellyfin: host:8096
+qBittorrent: host:8989  
+AutoBangumi: host:7892  
+Plex/jellyfin: host:8096  
 
 # jellyfin 安装
 
