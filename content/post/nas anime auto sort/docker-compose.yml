@@ -1,0 +1,68 @@
+version: "3.2"
+services:
+  qbittorrent:
+    container_name: qBittorrent
+    environment:
+      - TZ=Asia/Shanghai
+      - TemPath=/downloads
+      - SavePath=/downloads
+      - PGID=0
+      - PUID=0
+      - WEBUI_PORT=8989
+    volumes:
+      - qb_config:/config
+      - ./downloads:/downloads
+    ports:
+      - 8989:8989
+      - 6881:6881
+      - 6881:6881/udp
+    networks:
+      - auto_bangumi
+    restart: unless-stopped
+    image: lscr.io/linuxserver/qbittorrent:4.4.3
+
+  auto_bangumi:
+    container_name: AutoBangumi
+    environment:
+      - TZ=Asia/Shanghai
+      - AB_INTERVAL_TIME=30
+      - AB_RENAME_FREQ=20
+      - AB_RENAME=True
+      - AB_DOWNLOADER_HOST=qbittorrent:8989
+      - AB_DOWNLOADER_USERNAME=admin
+      - AB_DOWNLOADER_PASSWORD=adminadmin
+      - AB_METHOD=pn
+      - AB_GROUP_TAG=True
+      - AB_ENABLE_TMDB=True
+      - AB_LANGUAGE=JP
+      - AB_NOT_CONTAIN=720|简体|CHS|JPTC|简日|BG|简繁|AVC
+      - AB_DOWNLOAD_PATH=/downloads/Bangumi
+      - AB_RSS=https://mikanani.me/RSS/MyBangumi?token=A5uB5fGT4U7XHjWjZALP420kYh5b2VlMhK0CZWzQLL0%3d
+      - AB_DEBUG_MODE=false
+      - AB_WEBUI_PORT=7892
+      - AB_EP_COMPLETE=false
+      - AB_REMOVE_BAD_BT=True
+      - AB_RSS_COLLECTOR=True
+      - AB_RESET_FOLDER=True
+      - AB_SEASON_ONE=True
+    ports:
+      - 7892:7892
+    networks:
+      - auto_bangumi
+    volumes:
+      - auto_bangumi:/config
+    restart: unless-stopped
+    image: estrellaxd/auto_bangumi:latest
+    depends_on:
+      - qbittorrent
+
+networks:
+  auto_bangumi:
+
+volumes:
+  qb_config:
+    external: false
+  auto_bangumi:
+    external: false
+  
+
