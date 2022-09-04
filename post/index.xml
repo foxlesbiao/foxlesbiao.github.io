@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on foxlesbiao</title><link>https://foxlesbiao.github.io/post/</link><description>Recent content in Posts on foxlesbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 11 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>个人家庭网络规划</title><link>https://foxlesbiao.github.io/p/personal-home-network-planning/</link><pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/personal-home-network-planning/</guid><description>&lt;h1 id="家的面积">家的面积&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on foxlesbiao</title><link>https://foxlesbiao.github.io/post/</link><description>Recent content in Posts on foxlesbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 12 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>nas 全自动动漫下载并整理</title><link>https://foxlesbiao.github.io/p/nas-anime-auto-sort/</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/nas-anime-auto-sort/</guid><description>&lt;h1 id="安装-docker-and-edit-container-file">安装 docker and edit container file&lt;/h1>
+&lt;p>windows 直接在官网下载安装重启就可以了&lt;/p>
+&lt;p>编辑 docker compose 文件，可以使用官方的 docker compose 文件 &lt;a class="link" href="https://github.com/EstrellaXD/Auto_Bangumi/tree/main/docs/docker-compose" target="_blank" rel="noopener"
+>link&lt;/a>
+或者使用我的文件 &lt;a class="link" href="https://github.com/foxlesbiao/foxlesbiao.github.io/blob/main/content/post/nas%20anime%20auto%20sort/docker-compose.yml" target="_blank" rel="noopener"
+>link&lt;/a>&lt;/p>
+&lt;h1 id="启动-dokcer-容器">启动 dokcer 容器&lt;/h1>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="nb">docker-compose&lt;/span> &lt;span class="n">up&lt;/span> &lt;span class="n">-d&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="浏览器浏览端口">浏览器浏览端口&lt;/h1>
+&lt;p>qBittorrent: host:8989&lt;br>
+AutoBangumi: host:7892&lt;br>
+Plex/jellyfin: host:8096&lt;/p>
+&lt;h1 id="jellyfin-安装">jellyfin 安装&lt;/h1>
+&lt;p>在&lt;a class="link" href="https://hub.docker.com/r/nyanmisaka/jellyfin" target="_blank" rel="noopener"
+>这里&lt;/a>下载 jellyfin Windows&lt;br>
+解压缩点击 jellyfin.exe 就可以了&lt;/p>
+&lt;h2 id="jellyfin-插件推荐">jellyfin 插件推荐&lt;/h2>
+&lt;p>&lt;a class="link" href="https://github.com/kookxiang/jellyfin-plugin-bangumi" target="_blank" rel="noopener"
+>jellyfin bangumi&lt;/a>&lt;/p></description></item><item><title>SUBARU WRX STI Build</title><link>https://foxlesbiao.github.io/p/subaru-wrx-sti-mod/</link><pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/subaru-wrx-sti-mod/</guid><description>&lt;h2 id="engine--发动机">Engine / 发动机&lt;/h2></description></item><item><title>个人家庭网络规划</title><link>https://foxlesbiao.github.io/p/personal-home-network-planning/</link><pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/personal-home-network-planning/</guid><description>&lt;h1 id="家的面积">家的面积&lt;/h1>
 &lt;p>因为没有找到户型图，就大概大概的说下面积吧。房子是占地 700 平的四层独栋别墅和一个 200 平的院子。&lt;/p>
 &lt;h1 id="需求">需求&lt;/h1>
 &lt;p>我只需要 NAS,游戏缓存,BT/PT下载,万兆内网就可以了。&lt;/p>
@@ -1027,4 +1045,4 @@ loading="lazy"
 alt="Photo by OrangeFox-Recovery">
 &lt;/a>
 &lt;figcaption>Photo by OrangeFox-Recovery&lt;/figcaption>
-&lt;/figure>&lt;/p></description></item><item><title/><link>https://foxlesbiao.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/</guid><description/></item><item><title/><link>https://foxlesbiao.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/</guid><description/></item><item><title/><link>https://foxlesbiao.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/</guid><description/></item><item><title/><link>https://foxlesbiao.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/</guid><description/></item><item><title/><link>https://foxlesbiao.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/</guid><description/></item></channel></rss>
+&lt;/figure>&lt;/p></description></item><item><title/><link>https://foxlesbiao.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/</guid><description/></item><item><title/><link>https://foxlesbiao.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/</guid><description/></item><item><title/><link>https://foxlesbiao.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/</guid><description/></item><item><title/><link>https://foxlesbiao.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/</guid><description/></item></channel></rss>
