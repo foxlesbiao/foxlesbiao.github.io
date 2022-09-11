@@ -6,7 +6,7 @@
 <meta property="og:description" content="Fedord install docker">
 <meta property="og:url" content="https://foxlesbiao.github.io/p/fedora-install-docker/">
 <meta property="og:site_name" content="foxlesbiao">
-<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:published_time" content="2022-09-06T00:00:00+00:00"><meta property="article:modified_time" content="2022-09-06T00:00:00+00:00">
+<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:published_time" content="2022-09-10T00:00:00+00:00"><meta property="article:modified_time" content="2022-09-10T00:00:00+00:00">
 <meta name=twitter:title content="Fedord install docker">
 <meta name=twitter:description content="Fedord install docker">
 <link rel="shortcut icon" href=/img/favicon.ico>
@@ -97,27 +97,7 @@ Fedord install docker
 </div>
 </header>
 <section class=article-content>
-<h1 id=install>install</h1>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell>sudo dnf -y install dnf-plugins-core
-
-sudo dnf config-manager <span class=se>\
-</span><span class=se></span>    --add-repo <span class=se>\
-</span><span class=se></span>    https://download.docker.com/linux/fedora/docker-ce.repo
-    
-sudo dnf install containerd.io docker-compose-plugin docker-compose
-
-sudo systemctl start docker
-
-docker -v 
-
-docker-compose -v
-</code></pre></div><h1 id=user-groups>User Groups</h1>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell>sudo groupadd docker
-
-sudo usermod -aG docker alicefox
-
-newgrp docker 
-</code></pre></div>
+<h1 id=heading></h1>
 </section>
 <footer class=article-footer>
 <section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
@@ -126,6 +106,32 @@ newgrp docker
 </footer>
 </article>
 <aside class=related-contents--wrapper>
+<h2 class=section-title>相關文章</h2>
+<div class=related-contents>
+<div class="flex article-list--tile">
+<article>
+<a href=/p/fedora-install-docker/>
+<div class=article-details>
+<h2 class=article-title>Fedord install docker</h2>
+</div>
+</a>
+</article>
+<article>
+<a href=/p/nas-anime-auto-sort/>
+<div class=article-details>
+<h2 class=article-title>nas 全自动动漫下载并整理</h2>
+</div>
+</a>
+</article>
+<article>
+<a href=/p/personal-home-network-planning/>
+<div class=article-details>
+<h2 class=article-title>个人家庭网络规划</h2>
+</div>
+</a>
+</article>
+</div>
+</div>
 </aside>
 <footer class=site-footer>
 <section class=copyright>
