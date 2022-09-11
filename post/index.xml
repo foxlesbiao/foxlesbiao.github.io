@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on foxlesbiao</title><link>https://foxlesbiao.github.io/post/</link><description>Recent content in Posts on foxlesbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 10 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>unraid installs jellyfin and auto_bangumi to download anime automatically</title><link>https://foxlesbiao.github.io/p/fedora-install-docker/</link><pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/fedora-install-docker/</guid><description>&lt;h1 id="heading">&lt;/h1></description></item><item><title>Fedord install docker</title><link>https://foxlesbiao.github.io/p/fedora-install-docker/</link><pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/fedora-install-docker/</guid><description>&lt;h1 id="install">install&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on foxlesbiao</title><link>https://foxlesbiao.github.io/post/</link><description>Recent content in Posts on foxlesbiao</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 10 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://foxlesbiao.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>unraid installs jellyfin and auto_bangumi to download anime automatically</title><link>https://foxlesbiao.github.io/p/fedora-install-docker/</link><pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/fedora-install-docker/</guid><description>&lt;h1 id="jellyfin-install">jellyfin install&lt;/h1>
+&lt;p>选择 lscr.io/linuxserver/jellyfin&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">touch /boot/config/modprobe.d/ast.conf AST
+touch /boot/config/modprobe.d/i915.conf Intel
+touch /boot/config/modprobe.d/amdgpu.conf AMD APU
+touch /boot/config/modprobe.d/radeon.conf AMD RADEON
+modprobe i915 Intel
+modprobe amdgpu AMD
+reboot
+ls /dev/dri
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 627;
+flex-basis: 1504px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-31-05.png" data-size="232x37">
+&lt;img src="https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-31-05.png"
+width="232"
+height="37"
+srcset="https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-31-05_hu8fc36819de9eeb218171db2adc347a48_25943_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-31-05_hu8fc36819de9eeb218171db2adc347a48_25943_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by Settings">
+&lt;/a>
+&lt;figcaption>Photo by Settings&lt;/figcaption>
+&lt;/figure>&lt;br>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 1418;
+flex-basis: 3404px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-35-52.png" data-size="1220x86">
+&lt;img src="https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-35-52.png"
+width="1220"
+height="86"
+srcset="https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-35-52_hucc9a8c8ff554b6caafb63a91c00fd6fc_315465_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-35-52_hucc9a8c8ff554b6caafb63a91c00fd6fc_315465_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by Settings">
+&lt;/a>
+&lt;figcaption>Photo by Settings&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>安装即可&lt;/p>
+&lt;h2 id="auto_bangumi-install">auto_bangumi install&lt;/h2>
+&lt;p>install docker-compose&lt;br>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 147;
+flex-basis: 353px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-38-58.png" data-size="438x297">
+&lt;img src="https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-38-58.png"
+width="438"
+height="297"
+srcset="https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-38-58_hue0c379b7c9a2aed3ec65e3fc80ddb0c9_391292_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-38-58_hue0c379b7c9a2aed3ec65e3fc80ddb0c9_391292_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by Settings">
+&lt;/a>
+&lt;figcaption>Photo by Settings&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>upload docker-compose.yml&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://github.com/EstrellaXD/Auto_Bangumi/tree/main/docs/docker-compose" target="_blank" rel="noopener"
+>office yml&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>compose up&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 234;
+flex-basis: 562px"
+>
+&lt;a href="https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-45-02.png" data-size="1114x475">
+&lt;img src="https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-45-02.png"
+width="1114"
+height="475"
+srcset="https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-45-02_hu1b09a3a9d68f7b672b40d7f55c91e579_1590594_480x0_resize_box_3.png 480w, https://foxlesbiao.github.io/p/fedora-install-docker/Snipaste_2022-09-11_16-45-02_hu1b09a3a9d68f7b672b40d7f55c91e579_1590594_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Photo by Settings">
+&lt;/a>
+&lt;figcaption>Photo by Settings&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>Fedord install docker</title><link>https://foxlesbiao.github.io/p/fedora-install-docker/</link><pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><guid>https://foxlesbiao.github.io/p/fedora-install-docker/</guid><description>&lt;h1 id="install">install&lt;/h1>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">sudo dnf -y install dnf-plugins-core
 sudo dnf config-manager &lt;span class="se">\
 &lt;/span>&lt;span class="se">&lt;/span> --add-repo &lt;span class="se">\
