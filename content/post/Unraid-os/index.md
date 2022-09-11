@@ -1,8 +1,8 @@
 ---
 title: unraid installs jellyfin and auto_bangumi to download anime automatically
 description: unraid 安装 jellyfin 和 auto_bangumi 自动下载动漫
-date: 2022-09-10
-slug: Fedora-install-docker
+date: 2022-09-11
+slug: Unraid-os
 image: 
 categories:
     - Unraid
@@ -12,7 +12,7 @@ categories:
     - jellyfin
     - NAS
 
-lastmod: '2022-09-10'
+lastmod: '2022-09-11'
 ---
 
 # jellyfin install
